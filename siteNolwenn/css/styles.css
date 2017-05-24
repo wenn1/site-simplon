@@ -304,4 +304,26 @@ padding:1em;
 #bouton_fleche {
 	border: none;
 	background-color: rgba(255, 255, 255, 1);
+	
+}
+/* ----- Partie LA formation ( le tableau) ---*/
+#fs{
+background-color:#21EFFA;
+text-align: center; 	
+}
+#php{
+background-color:	#DE42F9;
+text-align: center; 	
+}
+#ruby{
+background-color:	#65F083;
+text-align: center; 	
+}
+#python{
+background-color:	#FAC35C;
+text-align: center; 	
+}
+span.gris{
+color: #150F0F;
+font-weight: bold;
 }
