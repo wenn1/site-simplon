@@ -4,7 +4,7 @@
 			<?php include('include/inc_head.php') ?>
 			<meta name="description" content="titre de la page"/>
 
-			<title>404</title>
+			<title>La formation</title>
 
 	</head>
 
