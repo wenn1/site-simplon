@@ -102,12 +102,6 @@
 		</ul>
 		
 	</section>
-					<article id="main" role="main">
-								<h3>Erreur 404</h3>
-									<section class="exercice html">
-										<h4>Erreur 404</h4>
-									</section>
-					</article>
 					<aside id="aside" role="complementary"><?php include('include/inc_aside.php') ?>
 					</aside>
 					<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
