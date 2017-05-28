@@ -306,7 +306,7 @@ padding:1em;
 	background-color: rgba(255, 255, 255, 1);
 	
 }
-/* ----- Partie LA formation ( le tableau) ---*/
+/* ----- Partie LA formation  et le tableau ---*/
 #fs{
 background-color:#21EFFA;
 text-align: center; 	
@@ -327,3 +327,15 @@ span.gris{
 color: #150F0F;
 font-weight: bold;
 }
+span.rouge{
+color: red;
+}
+table.tableau, td.tableau, tr.tableau{
+border: 1px solid black;	
+}
+li.hauteur{
+	padding-top: 5px;
+}
+.tailleH1{
+font-size: 2em;	
+	}
