@@ -210,8 +210,8 @@ color: #333;
 		background: #333;
 		color: #FFF;
 		padding: 1em;
-		height: 30px;
-		line-height: 30px;
+		height: 200px;
+		line-height: 200px;
 }
 
 #valid{
@@ -337,5 +337,21 @@ li.hauteur{
 	padding-top: 5px;
 }
 .tailleH1{
+<<<<<<< HEAD
 font-size: 2em;
 	}
+=======
+font-size: 2em;	
+	}
+	
+	
+/* --liste_footer-- */
+
+.lien_site li
+{
+	list-style: none;
+	line-height: 17px;
+	float: left;
+	margin-right: 35px;
+}
+>>>>>>> 2139e572068af43d06d4aa9447d6b857bbd80375
