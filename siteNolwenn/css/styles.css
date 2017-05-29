@@ -304,24 +304,24 @@ padding:1em;
 #bouton_fleche {
 	border: none;
 	background-color: rgba(255, 255, 255, 1);
-	
+
 }
 /* ----- Partie LA formation  et le tableau ---*/
 #fs{
 background-color:#21EFFA;
-text-align: center; 	
+text-align: center;
 }
 #php{
 background-color:	#DE42F9;
-text-align: center; 	
+text-align: center;
 }
 #ruby{
 background-color:	#65F083;
-text-align: center; 	
+text-align: center;
 }
 #python{
 background-color:	#FAC35C;
-text-align: center; 	
+text-align: center;
 }
 span.gris{
 color: #150F0F;
@@ -331,11 +331,11 @@ span.rouge{
 color: red;
 }
 table.tableau, td.tableau, tr.tableau{
-border: 1px solid black;	
+border: 1px solid black;
 }
 li.hauteur{
 	padding-top: 5px;
 }
 .tailleH1{
-font-size: 2em;	
+font-size: 2em;
 	}

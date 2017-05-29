@@ -21,7 +21,7 @@
 					</nav>
 
 					<!-- Page principale -->
-					<article id="main" role="main">
+					<main id="main" role="main">
 						<h3>La formation Dévelo'pont</h3>
 							<section class="preambule">
 								 <h4>Présentation</h4>
@@ -34,7 +34,7 @@
 											• social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement
 											sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</p>
 							</section>
-					</article>
+					</main>
 					<!-- Partie latérale -->
 					<aside id="aside" role="complementary"><?php include('include/inc_aside.php') ?>
 					</aside>
