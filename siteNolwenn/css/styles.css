@@ -173,6 +173,13 @@ list-style-type:none;
 		margin-right:1%;
 }
 
+#main2 {
+		background: none repeat scroll 0 0 rgba(255,255,255,0.5);
+		width:90%;
+		padding:1em 5%;
+		float:left;
+}
+
 #aside{
 		float:right;
 		margin-right:3%;
@@ -210,8 +217,8 @@ color: #333;
 		background: #333;
 		color: #FFF;
 		padding: 1em;
-		height: 200px;
-		line-height: 200px;
+		height: 30px;
+		line-height: 30px;
 }
 
 #valid{
@@ -308,43 +315,86 @@ padding:1em;
 }
 /* ----- Partie LA formation  et le tableau ---*/
 #fs{
-background-color:#21EFFA;
+background-color:rgb(182,194,95);
 text-align: center;
-}
-#php{
-background-color:	#DE42F9;
-text-align: center;
-}
-#ruby{
-background-color:	#65F083;
-text-align: center;
-}
-#python{
-background-color:	#FAC35C;
-text-align: center;
-}
-span.gris{
-color: #150F0F;
 font-weight: bold;
 }
-span.rouge{
-color: red;
+#php{
+background-color:	rgb(182,194,95);
+text-align: center;
+font-weight: bold;
 }
-table.tableau, td.tableau, tr.tableau{
-border: 1px solid black;
+#ruby{
+background-color:	rgb(182,194,95);
+text-align: center;
+font-weight: bold;
 }
-li.hauteur{
-	padding-top: 5px;
+#python{
+background-color:	rgb(182,194,95);
+text-align: center;
+font-weight: bold;
 }
+span.gris{
+color: #000;
+font-weight: 500;
+}
+
+span.rose{
+/*color: rgb(145,181,137);*/
+font-family: 'Open Sans', sans-serif;
+color: rgba(218,97,143,1);
+font-size: 1.2em;
+font-weight: 500;
+padding-top: 1em;
+text-align:left;
+font-variant: small-caps;
+}
+table.tableau, td.tableau, tr.tableau{
+border: 1px solid #777;
+}
+
+.marges_tableau ul {
+	margin:0;
+	padding:1em;
+}
+
+li.hauteur{
+	padding-top: 1em;
+	list-style-type: none;
+}
+
+li.hauteur:first-child {
+	padding-top:0;
+	list-style-type: none;
+}
+
+#main2 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	letter-spacing: 1pt;
+	font-variant:small-caps;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+	color: rgb(101,161,37);
+	border-bottom: 1px solid rgba(101,161,37,.5);
+	width: 85%;
+}
+
+#main2 h3:first-child {
+	padding-top: 0;
+}
+
+*:focus {outline: none;}
 .tailleH1{
+
 <<<<<<< HEAD
 font-size: 2em;
 	}
 =======
-font-size: 2em;	
+font-size: 2em;
 	}
-	
-	
+
+
 /* --liste_footer-- */
 
 .lien_site li
