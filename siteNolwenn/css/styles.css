@@ -350,3 +350,25 @@ font-size: 2em;
 	float: left;
 	margin-right: 35px;
 }
+
+/* --texte_acceuil--*/
+
+.preambule_titre
+{
+	font-size: 20px;
+	font-style: underline;
+	
+}
+
+.preambule_main
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+.preambule_main2
+{
+	font-size: 25px;
+	text-align: center;
+}
+
