@@ -21,13 +21,9 @@
 					</nav>
 
 					<!-- Page principale -->
-<<<<<<< HEAD
-					<article id="main" role="main">
-						<h3 class="preambule_main">La formation Dévelo'pont</h3>
-=======
+
 					<main id="main" role="main">
-						<h3>La formation Dévelo'pont</h3>
->>>>>>> dca756458ec49a83736adc18cb2a6aa7a3328cf8
+						<h3 class="preambule_main">La formation Dévelo'pont</h3>
 							<section class="preambule">
 								 <h4 class="preambule_main2">Présentation</h4>
 										<p class="preambule_titre">Qu'est ce que Dévelo'pont ?</p>

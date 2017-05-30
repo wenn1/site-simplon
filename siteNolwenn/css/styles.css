@@ -386,7 +386,7 @@ li.hauteur:first-child {
 
 *:focus {outline: none;}
 .tailleH1{
-<<<<<<< HEAD
+
 font-size: 2em;	
 	}
 	
@@ -422,24 +422,10 @@ font-size: 2em;
 	text-align: center;
 }
 
-=======
 
-<<<<<<< HEAD
-font-size: 2em;
-	}
-=======
-font-size: 2em;
-	}
+
 
 
 /* --liste_footer-- */
 
-.lien_site li
-{
-	list-style: none;
-	line-height: 17px;
-	float: left;
-	margin-right: 35px;
-}
->>>>>>> 2139e572068af43d06d4aa9447d6b857bbd80375
->>>>>>> dca756458ec49a83736adc18cb2a6aa7a3328cf8
+
