@@ -1,5 +1,5 @@
 <!-- logo Develo'pont en position absolute dans le header -->
-<p id="valid"><a href="./" title="retour à l'accueil"><img src="css/img/logo-developont.png" alt="logo Develo'pont"/></a></p>
+<p id="valid"><a href="http://simplon.co/" title="Aller sur le site Simplon" target="_blank"><img src="css/img/logo-simplon2.png" alt="logo Simplon"/></a></p>
 
 <ul class="lien_site">
 	<li><a href="http://simplon.co/" title="simplon" target="_blank">Site de Simplon</a></li>
@@ -24,7 +24,7 @@
 	<li><a href="http://www.vercors.org/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logo-CCMV.jpg" alt="massif_vercors"></a></li>
 	<li><a href="http://meef26.org/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/LOGO_1.jpg" alt="maison_de_l'emploi"></a></li>
 </ul>
-	
+
 
 <p> © 2017 </p>
 

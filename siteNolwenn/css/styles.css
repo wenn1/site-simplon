@@ -11,20 +11,36 @@ html {
 }
 
 #header {
-		margin: 0 auto;
-		background-image: url(img/logo-simplon2.png);
-		background-color: rgba(255, 255, 255, 0.0);
-		background-repeat: no-repeat;
-		background-position: right top;
-		background-size:auto 19%;
-		padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* ----------------- #header ---------------- */
 #header hgroup {
-		border-width: 0;
-		position: relative;
-		padding: 0.5em;
+	margin: 2em 8%;
+	float: left;
+}
+
+#header h1, h2 {
+	text-align: center;
+	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+	font-weight: 700;
+}
+
+h1 { /* Title Develo'pont */
+		color: #333;
+		font-size: 4.2em;
+		letter-spacing: 1pt;
+}
+
+
+h2 { /* Subtitle */
+	color: #fbfbfb;
+	font-size: 1.3em;
+}
+
+#logo {
+	padding: 1em;
 }
 
 #header span:before {
@@ -111,8 +127,17 @@ a:hover, a:active, a:focus {color: #ccc; text-decoration:none;outline:none;}
 		padding: 0;
 }
 
+#skip li a {
+	color: #FFF;
+}
+
+#skip li a:hover {
+	color: rgb(187,198,115);
+}
+
 /* Menu principal */
 #menu {
+clear:both;
 margin:0;
 padding: 0;
 background-color: #333;
@@ -225,8 +250,8 @@ color: #333;
 position: absolute;
 margin:0;
 padding:0;
-top: 3em;
-left: 1em;
+top: 2em;
+right: 1em;
 }
 
 #section2 figure{
@@ -334,63 +359,57 @@ background-color:	rgb(182,194,95);
 text-align: center;
 font-weight: bold;
 }
+
 span.gris{
 color: #000;
+font-style: italic;
+font-weight:500;
+}
+
+span.rose{
+/*color: rgb(145,181,137);*/
+font-family: 'Montserrat', sans-serif;
+color: rgba(218,97,143,1);
+font-size: 1.1em;
 font-weight: 500;
-}
-
-span.rose{
-/*color: rgb(145,181,137);*/
-font-family: 'Open Sans', sans-serif;
-color: rgba(218,97,143,1);
-font-size: 1.2em;
-font-weight: 500;
-padding-top: 1em;
-text-align:left;
-font-variant: small-caps;
-}
-table.tableau, td.tableau, tr.tableau{
-border: 1px solid #777;
-}
-
-.marges_tableau ul {
-	margin:0;
-	padding:1em;
-}
-
-li.hauteur{
-	padding-top: 1em;
-	list-style-type: none;
-}
-
-li.hauteur:first-child {
-	padding-top:0;
-	list-style-type: none;
-}
-
-#main2 h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.3em;
-	letter-spacing: 1pt;
-	font-variant:small-caps;
-	padding-top: 2em;
-	padding-bottom: 0.5em;
-	color: rgb(101,161,37);
-	border-bottom: 1px solid rgba(101,161,37,.5);
-	width: 85%;
-}
-
-#main2 h3:first-child {
-	padding-top: 0;
-}
-
+padding-top: 1em;
+text-align:left;
+font-variant: small-caps;
+}
+
+table.tableau, td.tableau, tr.tableau{
+border: 1px solid #777;
+}
+
+td.style_tableau {
+	text-align: left;
+	vertical-align:top;
+}
+
+.marges_tableau ul {
+	margin:0;
+	padding:1em;
+}
+
+li.hauteur{
+	padding-top: 1em;
+	list-style-type: none;
+}
+
+li.hauteur:first-child {
+	padding-top:0;
+	list-style-type: none;
+}
+/* Fin tableau */
+
 *:focus {outline: none;}
+
 .tailleH1{
 
-font-size: 2em;	
+font-size: 2em;
 	}
-	
-	
+
+
 /* --liste_footer-- */
 
 .lien_site li
@@ -407,7 +426,7 @@ font-size: 2em;
 {
 	font-size: 20px;
 	font-style: underline;
-	
+
 }
 
 .preambule_main
@@ -427,5 +446,3 @@ font-size: 2em;
 
 
 /* --liste_footer-- */
-
-
