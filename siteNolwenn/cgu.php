@@ -18,7 +18,7 @@
 		</nav>
 	
 		<main id="main" role="main">
-						<h3 class="preambule_main">La formation Dévelo'pont</h3>
+						<h3 class="preambule_main">Condition général d'utilisations</h3>
 							<section class="preambule">
 							
 								<article> <!-- article 1-->
