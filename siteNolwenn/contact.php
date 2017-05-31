@@ -1,23 +1,24 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<?php include('include/inc_head.php')?>
+<?php include('include/inc_head.php') ?>
 <meta name="description" content="contact"/>
 <title>Contact</title>
 </head>
 
 <body role="document">
-	<div id="content">
-		<nav id="skip"><?php include('include/inc_skip.php') ?>
+	<div class="content">
+		<nav class="skip"><?php include('include/inc_skip.php') ?>
 		</nav>
-		<header id="header" role="banner">
-				<?php include('include/inc_header.php')?>
+		<header class="header" role="banner">
+				<?php include('include/inc_header.php') ?>
 		</header>
-		
-		<nav id="menu" role="navigation"><?php include('include/inc_menu.php') ?>
+
+		<nav class="menu" role="navigation"><?php include('include/inc_menu.php') ?>
 		</nav>
-		
+
 		<article id="main" role="main">
+		<div id="ancre_main"></div>
 			<h3>Formulaire de contact</h3>
 			<h4>Veuillez remplir ce formulaire afin de nous contacter</h4>
 			<h5>(*) Les champs précédés d'une astérisque sont obligatoires</h5>
@@ -31,18 +32,18 @@
 					<label for="nom1">*Nom</label>
 					<input type="text" name="nom1" id="nom1" value="" size="15" maxlength="20"/>
 				</p>
-					
+
 				<p class="field">
 					<label for="prenom1">*Prénom</label>
 					<input type="text" name="prenom1" id="nom1" value="" size="15" maxlength="20"/>
 				</p>
-					
+
 				<p class="field">
 					<label for="email">*Email</label>
 					<input id="email" class="h5-email" type="email"
 					maxlength="40" size="30" name="email" required="required" value="" placeholder="Saisir une adresse email valide"/>
 				</p>
-						  
+
 				<p class="field">
 					<label for="sujet">*Objet du message</label>
 					<input id="sujet" class="h5-sujet" type="sujet" maxlength="30" size="20" name="sujet" required="required" value="" placeholder="objet du message"/>
@@ -76,9 +77,9 @@
 						<li>Sortir de Saint-Romans et continuer sur 7,8 km </li>
 						<li>Entrer dans Pont-en-Royans et continuer sur 600 m</li>
 						<li>Prendre à droite Place du Breuil</li>
-						<li> Vous êtes arriver </li>						
+						<li> Vous êtes arriver </li>
 					</ol>
-					
+
 					<ol> Plan de route depuis Grenoble (centre)
 						<li>Prendre Place de Lavalette et continuer sur 100 m </li>
 						<li>Continuer tout droit Pont de la Citadelle et continuer sur 90 m </li>
@@ -122,7 +123,7 @@
 						<li>Entrer dans Pont-en-Royans et continuer sur 100 m</li>
 						<li>Prendre à droite Pont Picard et continuer sur 500 m </li>
 						<li>Prendre à gauche Place du Breuil</li>
-						<li>Vous êtes arriver</li>									
+						<li>Vous êtes arriver</li>
 					</ol>
 					<ol> Plan de route depuis Valence (Centre)
 						<li>Prendre Place Jean Étienne Championnet et continuer sur 10 m</li>
@@ -157,11 +158,11 @@
 						<li>Sortir de Auberives-en-Royans et continuer sur 400 m</li>
 						<li>Continuer tout droit Route de la Plaine et continuer sur 1,5 km </li>
 						<li>Prendre à droite (D518) et continuer sur 900 m </li>
-						<li>Entrer dans Pont-en-Royans et continuer sur 500 m </li>	
-						<li>Prendre à droite Place du Breuil</li>	
-						<li>Vous êtes arriver</li>				
+						<li>Entrer dans Pont-en-Royans et continuer sur 500 m </li>
+						<li>Prendre à droite Place du Breuil</li>
+						<li>Vous êtes arriver</li>
 					</ol>
-				
+
 				</section>
 				</article>
 				<aside id="aside" role="complementary"><?php include('include/inc_aside.php')?>

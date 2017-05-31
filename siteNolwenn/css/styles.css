@@ -1,76 +1,15 @@
 /* ----- Styles généraux ------- */
-nav, figure, footer, figcaption, section, article, aside, section, header, hgroup{
+nav, figure, footer, figcaption, section, article, aside, section, header, hgroup, ul{
 		margin:0;
 		padding:0;
 		display:block;
 
 }
 
+*:focus {outline: none;}
+
 html {
 		font-size: 100%; /*Fixer la taille des polices à 100% de la police du navigateur*/
-}
-
-#header {
-	margin: 0;
-	padding: 0;
-}
-
-/* ----------------- #header ---------------- */
-#header hgroup {
-	margin: 2em 8%;
-	float: left;
-}
-
-#header h1, h2 {
-	text-align: center;
-	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
-	font-weight: 700;
-}
-
-h1 { /* Title Develo'pont */
-		color: #333;
-		font-size: 4.2em;
-		letter-spacing: 1pt;
-}
-
-
-h2 { /* Subtitle */
-	color: #fbfbfb;
-	font-size: 1.3em;
-}
-
-#logo {
-	padding: 1em;
-}
-
-#header span:before {
-    content: '{ ';
-}
-
-#header span:after {
-    content: ' }';
-}
-
-
-h1 { /* Title Develo'pont */
-		color: #333;
-		font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
-		font-size: 4.2em;
-		font-weight: 700;
-		letter-spacing: 1pt;
-		line-height: 0.7em;
-		text-align: center;
-}
-
-
-h2 { /* Subtitle */
-	color: #fbfbfb;
-	font-family: "Raleway", sans-serif;
-	font-size: 1.3em;
-	font-weight: 700;
-	line-height: 0.7em;
-	margin: 0 0 2em;
-	text-align: center;
 }
 
 
@@ -81,6 +20,7 @@ body:before { /* image d'arrière-plan flou sans perdre la lisibilité du conten
 	background: url(img/Pont_en_Royans2.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-attachment: fixed;
 	background-size: cover;
 	z-index: -1; /* Keep the background behind the content */
 	-webkit-filter: blur(8px);
@@ -102,9 +42,63 @@ body {
 /* ---------------- Liens par défaut ------------------ */
 a:visited {color:#fbfbfb; font-weight:normal;}
 a {color:#fff; font-weight:bold; text-decoration : none;}
-a:hover, a:active, a:focus {color: #ccc; text-decoration:none;outline:none;}
 
-#content { /* Partie centrale */
+
+
+/* ----------------- #header ---------------- */
+.header h1, .header h2 {
+	margin: 0;
+	padding:0;
+}
+
+.header hgroup {
+height: 70px;
+line-height: 50px;
+position: relative;
+margin-top: 2em;
+margin-left: 65px;
+float: left;
+text-align: center;
+font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+padding-top: 2em;
+}
+
+h1 { /* Title Develo'pont */
+		color: #333;
+		font-size: 4.2em;
+		letter-spacing: 1pt;
+}
+
+h2 { /* Subtitle */
+	color: #fbfbfb;
+	font-size: 1.3em;
+}
+
+.header span:before {
+    content: '{ ';
+}
+
+.header span:after {
+    content: ' }';
+}
+
+.logo {
+	padding: 1em 1em 1em 30px;
+	width:20%;
+}
+
+.logo img {
+	width:100%;
+	height:auto;
+}
+
+.floatleft{
+float:left;
+}
+
+
+.content { /* Partie centrale */
 		background: none repeat scroll 0 0 rgba(239, 233, 226, 0.6);
 		max-width: 1200px;
 		margin: 0 auto;
@@ -112,31 +106,31 @@ a:hover, a:active, a:focus {color: #ccc; text-decoration:none;outline:none;}
 }
 
 /* Menu d'accessibilité */
-#skip {
+.skip {
 		background:#333;
 }
 
-#skip ul {
+.skip ul {
 		font-size: 0.8em;
 		height: 2em;
 }
 
-#skip li {
+.skip li {
 		display: inline;
 		margin: 0 0.5em;
 		padding: 0;
 }
 
-#skip li a {
+.skip li a {
 	color: #FFF;
 }
 
-#skip li a:hover {
+.skip li a:hover {
 	color: rgb(187,198,115);
 }
 
 /* Menu principal */
-#menu {
+.menu {
 clear:both;
 margin:0;
 padding: 0;
@@ -146,21 +140,21 @@ line-height: 36px;
 color: #fbfbfb;
 }
 
-#menu ul {
+.menu ul {
 text-transform:uppercase;
 list-style:none;
 font-size:.85em;
 margin:60px 0 0;
 }
 
-#menu ul li{
+.menu ul li{
 position:relative;
 list-style-type:none;
 margin: 0 1em;
 display: inline-block;
 }
 
-#menu ul li a {
+.menu ul li a {
 text-decoration:none;
 color:#FFF;
 padding:10px .7em;
@@ -171,7 +165,7 @@ background-color:#CE255A;
 color:#fff;
 }
 
-#menu a:hover {
+.menu a:hover {
 color:#fff;
 background-color:#CE255A;
 transition: background-color 0.5s;
@@ -189,25 +183,28 @@ transition: background-color 0.5s;
 list-style-type:none;
 } */
 
-
+/* 2 types de page centrale selon les besoins: page full = main2 (pour la page slider, la page formation,...) /
+Et page avec aside pour accéder aux ressources du site = main */
 #main {
 		background: none repeat scroll 0 0 #FFF;
-		width:60%;
+		width:65%;
 		padding: 1em 5%;
 		float:left;
 		margin-right:1%;
 }
 
-#main2 {
-		background: none repeat scroll 0 0 rgba(255,255,255,0.5);
-		width:90%;
-		padding:1em 5%;
-		float:left;
+#main2 {
+		background: none repeat scroll 0 0 rgba(255,255,255,0.6);
+		width:90%;
+		padding:1em 5%;
+		float:left;
 }
+
+/* Partie latérale pour les ressources du site */
 
 #aside{
 		float:right;
-		margin-right:3%;
+		margin-right:2%;
 		background: rgba(195,2,69, 0.5);
 		padding: 0.5em;
 		font-variant: small-caps;
@@ -215,7 +212,7 @@ list-style-type:none;
 
 #aside h3 {
 	text-transform : uppercase;
-	color: #000;
+	color: #222;
 }
 
 #aside span {
@@ -236,126 +233,55 @@ color: #333;
 	list-style-type: none;
 }
 
+/* Fin de la partie latérale */
 
-#footer{
-		clear: both;
-		background: #333;
-		color: #FFF;
-		padding: 1em;
-		height: 30px;
-		line-height: 30px;
-}
 
-#valid{
-position: absolute;
-margin:0;
-padding:0;
-top: 2em;
-right: 1em;
-}
 
-#section2 figure{
-float:left;
-width:28%;
-}
+.tailleH1{
 
-#section2 figure img{
-width:100%;
-height:auto;
-}
+font-size: 2em;
+	}
 
-#section3{
-clear:both;
-}
 
-#section4 figure{
-float:right;
+/* --Custom Page de l'accueil--*/
+
+.preambule_titre
+{
+	font-size: 20px;
+	font-style: underline;
 
 }
-.clear{
-clear: both;
-}
-.fond  {
-background-color:#ddd;
-border-radius: 0.25em 0.25em 0.25em 0.25em;
-overflow:hidden;
+
+.preambule_main
+{
+	font-size: 40px;
+	text-align: center;
 }
 
-.floatleft{
-float:left;
+.preambule_main2
+{
+	font-size: 25px;
+	text-align: center;
 }
 
-.col60{
-width:60%;
-}
-.design{
-background-color:#ddd;
-border:2px solid #eee;
-border-radius: 0.25em 0.25em 0.25em 0.25em;
-}
-
-.over{
-float: right;
-margin-right: 2px;
-width: 38%;
-}
-
-figure img{
-width:100%;
-margin:5px auto;
-}
-
-.galerie img{
-width:31%; margin:5px 1%;
-}
-
-.decotitre{
-background-color:#eee;
-text-align:center;
-font-weight: bold;
-padding:0.5em 1em;
-border-radius: 0.25em 0.25em 0.25em 0.25em;
-}
-
-.design2 /* design de la photo agrandie à côté de la galerie */{
-background-color:#ddd;
-border:2px solid #eee;
-border-radius: 0.25em 0.25em 0.25em 0.25em;
-margin: 0 0 0 0em;
-}
-
-#btn_up {
-position:fixed;
-bottom:0;
-right:2em;
-cursor:pointer;
-/*display:none;*/
-padding:1em;
-}
-
-#bouton_fleche {
-	border: none;
-	background-color: rgba(255, 255, 255, 1);
-
-}
 /* ----- Partie LA formation  et le tableau ---*/
 #fs{
-background-color:rgb(182,194,95);
+background-color:#8CB48A;
 text-align: center;
 font-weight: bold;
 }
 #php{
-background-color:	rgb(182,194,95);
+background-color:	#8CB48A;
 text-align: center;
 font-weight: bold;
 }
 #ruby{
-background-color:	rgb(182,194,95);
+background-color:	#8CB48A;
 text-align: center;
 font-weight: bold;
 }
 #python{
-background-color:	rgb(182,194,95);
+background-color:	#8CB48A;
 text-align: center;
 font-weight: bold;
 }
@@ -366,12 +292,12 @@ font-style: italic;
 font-weight:500;
 }
 
-span.rose{
+span.vert{
 /*color: rgb(145,181,137);*/
 font-family: 'Montserrat', sans-serif;
-color: rgba(218,97,143,1);
+color: #8CB48A;
 font-size: 1.1em;
-font-weight: 500;
+font-weight: 700;
 padding-top: 1em;
 text-align:left;
 font-variant: small-caps;
@@ -402,47 +328,92 @@ li.hauteur:first-child {
 }
 /* Fin tableau */
 
-*:focus {outline: none;}
 
-.tailleH1{
+/* Footer */
+#footer{
+		clear: both;
+		background: #333;
+		color: #fbfbfb;
+		padding: 2em;
+		max-width:100%;
+		height: auto;
+}
 
-font-size: 2em;
-	}
+#footer section {
+	padding-top:1em;
+}
 
+#footer a {
+	font-weight:500;
+	color: #fbfbfb;
+}
+
+#footer a:hover {
+	font-weight:500;
+	color: #C0CA82;
+}
+
+#footer h4 {
+	color:#C0CA82;
+}
 
 /* --liste_footer-- */
-
+/* Liens vers sites internet & partenaires*/
+section.border_right {
+	border-right: 1px solid rgba(255,255,255,0.5);;
+	margin-right: 1em;
+	padding-right: 1em;
+	height:230px;
+}
 .lien_site li
 {
 	list-style: none;
-	line-height: 17px;
-	float: left;
-	margin-right: 35px;
+	margin-right: 2.5em;
 }
 
-/* --texte_acceuil--*/
-
-.preambule_titre
-{
-	font-size: 20px;
-	font-style: underline;
-
+.lien_photo li {
+list-style: none;
+display:inline-block;
 }
 
-.preambule_main
-{
-	font-size: 40px;
-	text-align: center;
+/*#section2 figure{
+float:left;
+width:28%;
 }
 
-.preambule_main2
-{
-	font-size: 25px;
-	text-align: center;
+#section2 figure img{
+width:100%;
+height:auto;
+}*/
+
+/* Logo Simplon en position absolute dans le header, mais créé dans le footer pour les besoins de l'animation en javascript */
+#valid{
+position: absolute;
+margin:0;
+padding:0;
+top: 2em;
+right: 1em;
+} /* Fin custom logo simplon */
+
+.clear{
+clear: both;
+}
+
+/* Bouton haut de page */
+
+#btn_up {
+position:fixed;
+bottom:0;
+right:2em;
+cursor:pointer;
+/*display:none;*/
+padding:1em;
+}
+
+#bouton_fleche {
+	border: none;
+	background-color: rgba(255, 255, 255, 1);
 }
 
 
 
-
-
-/* --liste_footer-- */
