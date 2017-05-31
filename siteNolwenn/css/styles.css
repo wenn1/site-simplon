@@ -292,19 +292,19 @@ font-style: italic;
 font-weight:500;
 }
 
-span.vert{
+span.rose{
 /*color: rgb(145,181,137);*/
 font-family: 'Montserrat', sans-serif;
-color: #8CB48A;
+color: rgb(206,37,90);
 font-size: 1.1em;
-font-weight: 700;
+font-weight: 600;
 padding-top: 1em;
 text-align:left;
 font-variant: small-caps;
 }
 
-table.tableau, td.tableau, tr.tableau{
-border: 1px solid #777;
+td.tableau{
+border: 1px solid #888;
 }
 
 td.style_tableau {
@@ -414,6 +414,3 @@ padding:1em;
 	border: none;
 	background-color: rgba(255, 255, 255, 1);
 }
-
-
-
