@@ -145,6 +145,7 @@ text-transform:uppercase;
 list-style:none;
 font-size:.85em;
 margin:60px 0 0;
+margin-left:1em;
 }
 
 .menu ul li{
@@ -194,7 +195,7 @@ Et page avec aside pour accéder aux ressources du site = main */
 }
 
 #main2 {
-		background: none repeat scroll 0 0 rgba(255,255,255,0.6);
+		background: none repeat scroll 0 0 rgba(255,255,255,0.5);
 		width:90%;
 		padding:1em 5%;
 		float:left;
@@ -238,7 +239,6 @@ color: #333;
 
 
 .tailleH1{
-
 font-size: 2em;
 	}
 
@@ -249,7 +249,6 @@ font-size: 2em;
 {
 	font-size: 20px;
 	font-style: underline;
-
 }
 
 .preambule_main
@@ -334,9 +333,10 @@ li.hauteur:first-child {
 		clear: both;
 		background: #333;
 		color: #fbfbfb;
-		padding: 2em;
+		padding: 1em;
 		max-width:100%;
 		height: auto;
+		font-size:.95em;
 }
 
 #footer section {
@@ -354,17 +354,28 @@ li.hauteur:first-child {
 }
 
 #footer h4 {
-	color:#C0CA82;
+	color: #fbfbfb;
+}
+
+.menu_footer ul {
+	list-style-type: none;
+	border-top: 1px dotted rgba(255,255,255,0.5);
+	border-bottom: 1px dotted rgba(255,255,255,0.5);
+	padding: 1em;
+	margin-top: 2em;
+	text-align:center;
+}
+.menu_footer li {
+	display: inline-block;
+	padding-right: 5px;
 }
 
 /* --liste_footer-- */
 /* Liens vers sites internet & partenaires*/
-section.border_right {
-	border-right: 1px solid rgba(255,255,255,0.5);;
-	margin-right: 1em;
-	padding-right: 1em;
-	height:230px;
+section.margin_liens {
+	margin-left: 3em;
 }
+
 .lien_site li
 {
 	list-style: none;
@@ -374,6 +385,7 @@ section.border_right {
 .lien_photo li {
 list-style: none;
 display:inline-block;
+margin-right: 2em;
 }
 
 /*#section2 figure{
