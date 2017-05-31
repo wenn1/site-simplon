@@ -27,25 +27,25 @@
 							<section class="preambule">
 								 <h4 class="preambule_main2">Présentation</h4>
 										<h5 class="preambule_titre">Qu'est ce que Dévelo'pont ?</h5>
-										<p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors,
-										Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
+										<p>Pour la première fois en Isère, dans un petit village authentique adossé au Vercors,
+										Simplon.co propose une formation de développeur(euse) Web, en PHP, gratuite et intensive, de 7 mois à partir d’avril 2017.</p>
 										<p>Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :</p>
 										<p>• économique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du
 										numérique engagées dans cette démarche citoyenne.</p>
 										<p>• social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la
 										base de critères sociaux et de leur motivation, et non selon les diplômes.</p>
 										<h5 class="preambule_titre">Où se situe Pont-en-Royans ?</h5>
-										<p>La formation se passera a Pont-en-Royans, cette commune se situe dans le Royans (Massif du Vercors). Le
-										Royans est l'une des 7 régions naturelles du Parc naturel régional du Vercors. Le point culminant de Pont-en-Royans
-										est le Mont-Baret (786 m d'altitude). Le village se trouve au confluent de la Bourne (source : Lans-en-Vercors) et
-										de la Vernaison (source : Saint-Agnan-en-Vercors).</p>
-										<p>Cette petite bourgade abrite près de 788 habitants, et représente également un grand lieu de tourisme, grâce au Musée de L'Eau.</p>
+										<p>La formation se passe à Pont-en-Royans, petite commune du Royans (Massif du Vercors).<br> Le
+										Royans est l'une des 7 régions naturelles du Parc naturel régional du Vercors. 
+										 Le village se trouve au confluent de la Bourne et de la Vernaison .</p>
+								
+										<p>Cette petite bourgade abrite près de 788 habitants, et représente également un grand lieu de tourisme, grâce notamment au Musée de L'Eau.</p>
 										<p>Ce musée vous propose des visites guidées, des ateliers pédagogiques et des animations adaptées à chaque public.
 										On visite la salle des eaux du monde, la salle des eaux du Vercors, la salle de  cinéma 3D et le bar à eaux, dans
 										lequel une dégustation d'eaux vous attend.</p>
-										<h5 class="preambule_titre">Où se passera la formation ?</h5>
-										<p>La formation se passera dans les locaux de Legrand, grâce à leur grande bonté, et le don d'une salle dédiée, les
-										étudiants peuvent apprendre et se former, avec du bon matériel afin qu'ils puissent apprendre dans le plus grand confort possible.</p>
+										<h5 class="preambule_titre">Où se passe la formation ?</h5>
+										<p>L'entreprise Legrand accueille la formation sur son site de Pont-en-Royans.<br> Elle met à disposition plusieurs salles(cours, repos, administration) ainsi que l'accès à la cafétéria,
+										 de manière à offrir un cadre adapté pour répondre aux besoins des futurs développeurs.</p>
 
 
 
