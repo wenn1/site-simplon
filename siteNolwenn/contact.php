@@ -63,8 +63,8 @@
 				<h3>Un plan d'accès aux locaux de Dévelopont</h3>
 				<section class="exercice html">
 					<h4>Nous rendre visite</h4>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22545.28288336239!2d5.327721931044048!3d45.06225797520093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478abb82046dcbe1%3A0xce9c6af3c67f8452!2s38680+Pont-en-Royans!5e0!3m2!1sfr!2sfr!4v1496045830866" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><small><a href="https://www.google.fr/maps/place/Legrand+France/@45.1481754,5.3131242,15z/data=!4m5!3m4!1s0x0:0x88bdc0e74bfeab06!8m2!3d45.1481754!4d5.3131242" style="color:#0000FF;text-align:left"l>
-				</a>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22545.28288336239!2d5.327721931044048!3d45.06225797520093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478abb82046dcbe1%3A0xce9c6af3c67f8452!2s38680+Pont-en-Royans!5e0!3m2!1sfr!2sfr!4v1496045830866" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><a href="https://www.google.fr/maps/place/Legrand+France/@45.1481754,5.3131242,15z/data=!4m5!3m4!1s0x0:0x88bdc0e74bfeab06!8m2!3d45.1481754!4d5.3131242" style="color:#0000FF;text-align:left"l></a>
+				
 				</section>
 				<section>
 					<h4> Itinéraire</h4>
