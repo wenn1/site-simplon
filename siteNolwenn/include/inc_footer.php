@@ -9,7 +9,7 @@
 <section class="menu_footer">
   <ul>
     <li><a href="#">A propos</a></li>
-    <li><a href="cgu.php">Mentions légales</a></li>
+    <li <?php if ($nav_en_cours == 'mentions') {echo 'id="in_current"';} ?> ><a href="cgu.php">Mentions légales</a></li>
     <li><a href="#">Crédits</a></li>
   </ul>
 </section>

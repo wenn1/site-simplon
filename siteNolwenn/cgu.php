@@ -15,14 +15,14 @@
 		</header>
 
 		<nav class="menu" role="navigation">
-			  <?php $nav_en_cours = 'mentions'; ?>
+		<?php $nav_en_cours = 'mentions'; ?>
 		<?php include('include/inc_menu.php') ?>
 		</nav>
 
 		<main id="main" role="main">
-						<h3 class="preambule_main">Condition générale d'utilisations</h3>
-							<section class="preambule">
 
+							<section class="preambule">
+									<h3 class="preambule_main">Condition générale d'utilisations</h3>
 								<article> <!-- article 1-->
 									<h3> ARTICLE 1 : Objet </h3>
 									<p>
