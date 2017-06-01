@@ -20,7 +20,7 @@
 <section class="floatleft border_right">
 <h4>Les partenaires</h4>
 <ul class="lien_photo clear">
-	<li><a href="http://www.royans.com/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logoCCPR.png" alt="pays_du_royans" width="100px" height="auto"></a></li>
+	<li><a href="http://cc-royans-vercors.org/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logoCCPR.png" alt="pays_du_royans" width="100px" height="auto"></a></li>
 	<li><a href="http://www.actu.saintmarcellin-vercors-isere.fr/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/thumbnail_Logo-ccpsg-provisoire2017.jpg" alt="sud_gresivaudan"  width="100px" height="auto"></a></li>
 	<li><a href="http://www.emploi-pvsg.org/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logo-MdE_retenu_vert.jpg" alt="maison_emploi" width="100px" height="auto"></a></li>
 	<li><a href="https://www.legrand.fr/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logo-legrand.png" alt="legrand" width="100px" height="auto"></a></li>
