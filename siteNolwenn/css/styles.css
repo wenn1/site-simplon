@@ -135,31 +135,6 @@ float:left;
 		position: relative;
 }
 
-/* Menu d'accessibilité */
-.skip {
-		background:#333;
-}
-
-.skip ul {
-		font-size: 0.85em;
-		height: 2em;
-		margin-left: 1em;
-}
-
-.skip li {
-		display: inline;
-		margin: 0 1em;
-		padding: 0;
-}
-
-.skip li a {
-	color: #fbfbfb;
-}
-
-.skip li a:hover {
-	color: rgb(187,198,115);
-}
-
 /* Menu principal */
 .menu {
 clear:both;
