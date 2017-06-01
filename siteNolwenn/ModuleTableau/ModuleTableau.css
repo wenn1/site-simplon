@@ -1,0 +1,34 @@
+.Module-Tableau-container{
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.Module-Tableau-green{
+	background-color:rgba(116,134,22,0.8);
+	
+}
+
+.Module-Tableau-bar{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.Module-Tableau-button{
+	border: none;
+	background-color:rgba(116,134,22,0.0);
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Module-Tableau-border{
+	border: 1px solid black;
+}
+
+.Module-Tableau-activ{
+	background-color:rgba(116,134,22);
+	color: black;
+	outline:none;
+}
