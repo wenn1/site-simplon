@@ -81,7 +81,7 @@
 					<h5>Depuis Grenoble à 50 minutes de route</h5>
 					<p> <a href="https://fr.mappy.com/#/6/M2/TItinerary/IFRGrenoble%2038000-38100|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.11601,44.99795/Z11/"> plan de route</a></p>
 					
-					<h5>Depuis Valence (à 50 minutes de route</h5>
+					<h5>Depuis Valence à 50 minutes de route</h5>
 					<p><a href="https://fr.mappy.com/#/8/M2/TItinerary/IFRValence%2026000|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.30803,45.10758/Z11/"> plan de route</a></p>
 					
 
