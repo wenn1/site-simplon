@@ -14,13 +14,15 @@
 			<header class="header" role="banner">
 					<?php include('include/inc_header.php') ?>
 			</header>
-			<nav class="menu" role="navigation"><?php include('include/inc_menu.php') ?>
+			<nav class="menu" role="navigation">
+			<?php $nav_en_cours = 'slider'; ?>
+			<?php include('include/inc_menu.php') ?>
 			</nav>
 
-			<article id="main" role="main">
+			<article id="main2" role="main">
 			<div id="ancre_main"></div>
 				<section>
-					<h3>Galeries interactives</h3>
+					<h3 class="heading_page">Galerie interactive</h3>
 					 <h4>Photos de la promotion</h4>
 				</section>
 
@@ -66,9 +68,6 @@
 				</div>
 				</section>
 			</article>
-
-				<aside id="aside" role="complementary"><?php include('include/inc_aside.php') ?>
-				</aside>
 
 				<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 				</footer>
