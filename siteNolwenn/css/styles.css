@@ -3,10 +3,9 @@ nav, figure, footer, figcaption, section, article, aside, section, header, hgrou
 		margin:0;
 		padding:0;
 		display:block;
-
 }
 
-*:focus {outline: none;}
+
 
 html {
 		font-size: 100%; /*Fixer la taille des polices à 100% de la police du navigateur*/
@@ -42,10 +41,17 @@ body {
 /* ---------------- Liens par défaut ------------------ */
 a:visited {color:#fbfbfb; font-weight:normal;}
 a {color:#fff; font-weight:bold; text-decoration : none;}
+a:link,a:visited,a:hover,a:active {
+outline:none;
+}
 
 
 
 /* ----------------- #header ---------------- */
+.header {
+	box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
+}
+
 .header h1, .header h2 {
 	margin: 0;
 	padding:0;
@@ -72,7 +78,34 @@ h1 { /* Title Develo'pont */
 
 h2 { /* Subtitle */
 	color: #fbfbfb;
-	font-size: 1.3em;
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size:1.2em;
+}
+
+.heading_page {
+	text-transform: uppercase;
+	border-bottom: 1px solid #eee;
+  margin: 40px 0 20px;
+}
+
+h3.heading_page {
+	font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1em 0;
+  text-align: left;
+  text-transform: uppercase;
+  color:#748616;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+font-size:1em;
 }
 
 .header span:before {
@@ -97,7 +130,6 @@ h2 { /* Subtitle */
 float:left;
 }
 
-
 .content { /* Partie centrale */
 		background: none repeat scroll 0 0 rgba(239, 233, 226, 0.6);
 		max-width: 1200px;
@@ -111,18 +143,19 @@ float:left;
 }
 
 .skip ul {
-		font-size: 0.8em;
+		font-size: 0.85em;
 		height: 2em;
+		margin-left: 1em;
 }
 
 .skip li {
 		display: inline;
-		margin: 0 0.5em;
+		margin: 0 1em;
 		padding: 0;
 }
 
 .skip li a {
-	color: #FFF;
+	color: #fbfbfb;
 }
 
 .skip li a:hover {
@@ -134,10 +167,11 @@ float:left;
 clear:both;
 margin:0;
 padding: 0;
-background-color: #333;
+background-color:#333;
 height:36px;
 line-height: 36px;
 color: #fbfbfb;
+box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
 
 .menu ul {
@@ -151,14 +185,14 @@ margin-left:1em;
 .menu ul li{
 position:relative;
 list-style-type:none;
-margin: 0 1em;
+margin: 0 0.7em;
 display: inline-block;
 }
 
 .menu ul li a {
 text-decoration:none;
 color:#FFF;
-padding:10px .7em;
+padding:9.5px .7em;
 }
 
 #en-cours a {
@@ -191,29 +225,45 @@ Et page avec aside pour accéder aux ressources du site = main */
 		width:65%;
 		padding: 1em 5%;
 		float:left;
+		margin-top:1em;
+		margin-bottom: 1em;
 		margin-right:1%;
+		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
 
 #main2 {
-		background: none repeat scroll 0 0 rgba(255,255,255,0.5);
+		background: none repeat scroll 0 0 rgba(255,255,255,0.6);
 		width:90%;
+		margin-top:1em;
 		padding:1em 5%;
 		float:left;
+		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
+		border-bottom: 3px solid #CE255A;
 }
 
 /* Partie latérale pour les ressources du site */
-
 #aside{
 		float:right;
-		margin-right:2%;
-		background: rgba(195,2,69, 0.5);
-		padding: 0.5em;
-		font-variant: small-caps;
+		margin-top:1em;
+		margin-right:2.5%;
+		background: rgb(255,255,255);
+		padding: 1em;
+		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
 
-#aside h3 {
-	text-transform : uppercase;
-	color: #222;
+.heading_aside {
+	text-transform: uppercase;
+	border-bottom: 1px solid #eee;
+  margin: 10px 0 10px;
+}
+
+h3.heading_aside {
+	font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.5em 0;
+    text-align: left;
+    text-transform: uppercase;
+    color: #CE255A;
 }
 
 #aside span {
@@ -223,7 +273,7 @@ Et page avec aside pour accéder aux ressources du site = main */
 }
 
 #aside a {
-	color: #fbfbfb;
+	color: #333;
 }
 
 #aside span:hover{
@@ -235,16 +285,11 @@ color: #333;
 }
 
 /* Fin de la partie latérale */
-
-
-
 .tailleH1{
 font-size: 2em;
 	}
 
-
-/* --Custom Page de l'accueil--*/
-
+/* --Custom Page d'accueil--*/
 .preambule_titre
 {
 	font-size: 20px;
@@ -265,22 +310,22 @@ font-size: 2em;
 
 /* ----- Partie LA formation  et le tableau ---*/
 #fs{
-background-color:#8CB48A;
+background-color:rgba(116,134,22, 0.8);
 text-align: center;
 font-weight: bold;
 }
 #php{
-background-color:	#8CB48A;
+background-color:	rgba(116,134,22, 0.8);
 text-align: center;
 font-weight: bold;
 }
 #ruby{
-background-color:	#8CB48A;
+background-color:	rgba(116,134,22, 0.8);
 text-align: center;
 font-weight: bold;
 }
 #python{
-background-color:	#8CB48A;
+background-color:	rgba(116,134,22, 0.8);
 text-align: center;
 font-weight: bold;
 }
@@ -292,8 +337,7 @@ font-weight:500;
 }
 
 span.rose{
-/*color: rgb(145,181,137);*/
-font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 color: rgb(206,37,90);
 font-size: 1.1em;
 font-weight: 600;
@@ -302,8 +346,8 @@ text-align:left;
 font-variant: small-caps;
 }
 
-td.tableau{
-border: 1px solid #888;
+td.tableau {
+border: 1px solid rgba(116,134,22, 0.5);
 }
 
 td.style_tableau {
@@ -316,7 +360,7 @@ td.style_tableau {
 	padding:1em;
 }
 
-li.hauteur{
+li.hauteur {
 	padding-top: 1em;
 	list-style-type: none;
 }
@@ -327,6 +371,10 @@ li.hauteur:first-child {
 }
 /* Fin tableau */
 
+/* Formulaire de contact */
+.style_contact fieldset {
+border: 1px solid #eee;
+}
 
 /* Footer */
 #footer{
@@ -337,20 +385,21 @@ li.hauteur:first-child {
 		max-width:100%;
 		height: auto;
 		font-size:.95em;
-}
-
-#footer section {
-	padding-top:1em;
+		border-top: 3px solid #CE255A;
+		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
 
 #footer a {
 	font-weight:500;
-	color: #fbfbfb;
+	color: #FFF;
+}
+
+#enCours_footer a {
+color:#748616;
 }
 
 #footer a:hover {
-	font-weight:500;
-	color: #C0CA82;
+color:#748616;
 }
 
 #footer h4 {
@@ -361,13 +410,14 @@ li.hauteur:first-child {
 	list-style-type: none;
 	border-top: 1px dotted rgba(255,255,255,0.5);
 	border-bottom: 1px dotted rgba(255,255,255,0.5);
+	width: 50%;
 	padding: 1em;
-	margin-top: 2em;
+	margin: 1em auto;
 	text-align:center;
 }
 .menu_footer li {
 	display: inline-block;
-	padding-right: 5px;
+	padding-right: 1em;
 }
 
 /* --liste_footer-- */

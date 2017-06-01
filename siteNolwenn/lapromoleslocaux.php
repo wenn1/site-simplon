@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 			<?php include('include/inc_head.php') ?>
-			<meta name="description" content="titre de la page"/>
+			<meta name="description" content="La promo / Les locaux"/>
 			<title>La Promo/Les Locaux</title>
 	</head>
 
@@ -17,15 +17,17 @@
 					</header>
 
 					<!-- barre principale de navigation -->
-					<nav class="menu" role="navigation"><?php include('include/inc_menu.php') ?>
+					<nav class="menu" role="navigation">
+					<?php $nav_en_cours = 'promo'; ?>
+					<?php include('include/inc_menu.php') ?>
 					</nav>
 
 					<!-- Page principale -->
 					<article id="main" role="main">
           <div id="ancre_main"></div>
-						<h3>La promo / Les locaux</h3>
 							<section>
-								 <h4>La promo</h4>
+							<h3 class="heading_page">La promo / Les locaux</h3>
+							<h4>La promo</h4>
 						</section>
 					</article>
 

@@ -1,6 +1,19 @@
 <!-- logo Develo'pont en position absolute dans le header -->
 <p id="valid"><a href="http://simplon.co/" title="Aller sur le site Simplon" target="_blank"><img src="css/img/logo-simplon2.png" alt="logo Simplon"/></a></p>
 
+<section>
+<p>© 2017</p>
+</section>
+
+
+<section class="menu_footer">
+  <ul>
+    <li><a href="#">A propos</a></li>
+    <li><a href="cgu.php">Mentions légales</a></li>
+    <li><a href="#">Crédits</a></li>
+  </ul>
+</section>
+
 <section class="floatleft margin_liens">
 <h4>Liens sites internet</h4>
 <ul class="lien_site clear">
@@ -21,7 +34,7 @@
 <h4>Partenaires</h4>
 <ul class="lien_photo clear">
 	<li><a href="http://www.royans.com/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logoCCPR.png" alt="pays_du_royans" title="logo pays du royans" width="100px" height="auto"></a></li>
-	<li><a href="http://www.actu.saintmarcellin-vercors-isere.fr/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/thumbnail_Logo-ccpsg-provisoire2017.jpg" alt="sud_gresivaudan" title="logo sud Grésivaudan"  width="100px" height="auto"></a></li>
+	<li><a href="http://www.actu.saintmarcellin-vercors-isere.fr/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/thumbnail_Logo-ccpsg-provisoire2017.jpg" alt="sud_gresivaudan" title="logo Sud Grésivaudan"  width="100px" height="auto"></a></li>
 	<li><a href="http://www.emploi-pvsg.org/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logo-MdE_retenu_vert.jpg" alt="maison_emploi" title="logo maison de l'emploi" width="100px" height="auto"></a></li>
 	<li><a href="https://www.legrand.fr/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logo-legrand.png" alt="legrand" title="Logo Legrand" width="100px" height="auto"></a></li>
 	<li><a href="http://www.vercors.net/" target="_blank"><img src="http://simplon.co/wp-content/uploads/2017/01/logoCCV.jpg" alt="commune_vercors" title="Logo Communauté de communes du Vercors" width="100px" height="auto"></a></li>
@@ -30,18 +43,9 @@
 </ul>
 </section>
 
-
-<section class="menu_footer clear">
-	<ul>
-		<li><a href="cgu.php">Mentions légales</a></li>
-		<li><a href="#">Crédits</a></li>
-		<li><a href="#">Plan du site</a></li>
-	</ul>
-</section>
-
 <section class="clear">
-<p>© 2017</p>
 </section>
+
 
 <section> <!-- Bouton haut de page -->
     <div id="btn_up">
@@ -54,7 +58,6 @@
 
 <script src="javascript/jquery-3.2.1.min.js"></script>
 <script src="javascript/jquery-ui.min.js"></script>
-<script src="./javascript/accordeon.js"></script>
 
 <!-- Animation bouton haut de page -->
 <script type="text/javascript">
