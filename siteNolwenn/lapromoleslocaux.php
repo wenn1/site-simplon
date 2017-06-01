@@ -9,15 +9,18 @@
 	<body role="document">
 			<div class="content">
 
-					<!-- En-tête de page -->
-					<header id="header" role="banner">
+
+					<header class="header" role="banner">
 							<?php include('include/inc_header.php') ?>
 					</header>
-					<!-- barre principale de navigation -->
-					<nav id="menu" role="navigation"><?php include('include/inc_menu.php') ?>
+
+
+					<nav class="menu" role="navigation">
+					<?php $nav_en_cours = 'formation'; ?>
+					<?php include('include/inc_menu.php') ?>
 					</nav>
 
-			<article>
+			<article id="main">
 				<h3>Présentation de la promotion dévelo'pont :</h3>
 
 					<p>DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO .
@@ -94,7 +97,7 @@
 					salle prevue pour les élèves, refaite a neuf pour l'occasion.
 					</p>
 					<img src="galerie/sliderphoto3.jpg" alt="photos_locaux" width="50%" height="50%">
-
+</article>
 					<!-- Pied de page -->
 					<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 					</footer>
