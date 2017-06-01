@@ -45,8 +45,6 @@ a:link,a:visited,a:hover,a:active {
 outline:none;
 }
 
-
-
 /* ----------------- #header ---------------- */
 .header {
 	box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
@@ -389,23 +387,10 @@ border: 1px solid #eee;
 		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
 
-#footer a {
-	font-weight:500;
-	color: #FFF;
-}
-
-#enCours_footer a {
-color:#748616;
-}
-
-#footer a:hover {
-color:#748616;
-}
 
 #footer h4 {
 	color: #fbfbfb;
 }
-
 .menu_footer ul {
 	list-style-type: none;
 	border-top: 1px dotted rgba(255,255,255,0.5);
@@ -418,6 +403,19 @@ color:#748616;
 .menu_footer li {
 	display: inline-block;
 	padding-right: 1em;
+}
+
+.menu_footer li a{
+	font-weight:500;
+	color: #FFF;
+}
+
+.menu_footer a:hover {
+color:#748616;
+}
+
+#in_current a {
+color:#748616;
 }
 
 /* --liste_footer-- */
