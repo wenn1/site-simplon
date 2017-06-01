@@ -8,8 +8,6 @@
 
 <body role="document">
 	<div class="content">
-		<nav class="skip"><?php include('include/inc_skip.php') ?>
-		</nav>
 		<header class="header" role="banner">
 				<?php include('include/inc_header.php') ?>
 		</header>
