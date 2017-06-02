@@ -9,70 +9,81 @@
 	<body role="document">
 			<div class="content">
 
-
 					<header class="header" role="banner">
 							<?php include('include/inc_header.php') ?>
 					</header>
 
 
 					<nav class="menu" role="navigation">
-					<?php $nav_en_cours = 'formation'; ?>
+					<?php $nav_en_cours = 'promo'; ?>
 					<?php include('include/inc_menu.php') ?>
 					</nav>
 
 			<article id="main">
-				<h3>Présentation de la promotion dévelo'pont :</h3>
 
+				<section>
+				<h3>La promotion Dévelo'pont</h3>
+				<h4>Présentation</h4>
 					<p>DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO .
 					C'est une formation GRATUITE, INTENSIVE, QUALIFIANTE de 7 mois en développement web et mobile.
 					Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités
 					locales dans leur développement numérique.</p>
 					<p>Accueillis gracieusement dans les locaux de l'usine Legrand, grâce à Laurent Besson,
 					technicien du groupe et surtout bénévole de l'EPN qui, lui aussi, a fait un énorme travail dans la
-					mise en place de la formation</p>
-					<p>Cette formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared),
+					mise en place de cette formation</p>
+					<p>La formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared),
 					financé par la Région et POEC : préparation opérationnelle à l'emploi collectif financée par OPCALIA.
-					Elle sera encadrée par les bénévoles de l'EPN, deux formateurs, une administratrice et une chargée des
+					Elle est encadrée par les bénévoles de l'EPN, deux formateurs, une administratrice et une chargée des
 					relations entreprise, tous Pontois.</p>
-					<p>Les candidatures de la formation ont commencer des le 20 janvier 2017, qui a acceuilli pret de 100 participant,
-					et qui au final n'en a garder que 20 personnes pour commencer la formation le 2 mai 2017. Cette formation qui se
-					passera donc sur 6 mois intensif et un mois de stage en entreprise qui aidera a validé leur compétence</p>
+					<p>Les candidatures pour cette formation ont commencé le 20 janvier 2017; près d'une centaine de participants ont été accueillis; au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise</p>
+					</section>
 
-				<h3>Presentation de l'administration :</h3>
+				<section>
+						<div class="ancre"><span id="galerie"></span></div>
+							<div class="galerie-container">
+								<h3 class="page-header">Galerie photos</h3>
+								<h4>Présentation de l'administration</h4>
+								<figure class="galerie">
+								<figcaption >La formation est gérée administrativement par Line-Rose, présidente de l'EPN, Chloé et Charlène gèrent toute la partie administrative</figcaption>
+										  <a href="galerie/photo_individuel/Line_Rose.jpg" data-title="Line-Rose" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Line_Rosex150.jpg" alt="Line-Rose" /></a>
+										  <a href="galerie/photo_individuel/Charlene.jpg" data-title="Charlène" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Charlenex150.jpg" alt="Charlene" /></a>
+										  <a href="galerie/photo_individuel/Chloe.jpg" data-title="Chloé" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Chloex150.jpg" alt="Chloe" /></a>
+								</figure>
+						</div>
+		    </section>
 
-					<h4>Line rose</h4><img src="galerie/photo_individuel/Line_Rose.jpg" alt="line_rose">
-					<h4>Charlène</h4><img src="galerie/photo_individuel/Charlene.jpg" alt="charlene">
-					<h4>Chloe</h4><img src="galerie/photo_individuel/Chloe.jpg" alt="chloe">
-					<p>La formation sera gerer administrativement par Mme line rose, présidente de l'EPN, chloe et charlene qui gereront tout les papiers</p>
+				<section class="clear">
+					<h4>les enseignants</h4>
+					<a href="galerie/photo_individuel/Arnaud.jpg" data-title="Arnaud" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Arnaudx150.jpg" alt="Arnaud" /></a>
+					<a href="galerie/photo_individuel/Jerome.jpg" data-title="Jérôme" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Jeromex150.jpg" alt="Jérôme" /></a>
+				</section>
 
-					<p>les formateurs qui seront la pour les élèves</p>
-					<h4>Arnaud</h4><img src="galerie/photo_individuel/Arnaud.jpg" alt="arnaud">
-					<h4>jerome</h4><img src="galerie/photo_individuel/Jerome.jpg" alt="jerome">
+<section class="clear">
+					<h4>Et enfin les élèves de la formation</h4>
+						<a href="galerie/photo_individuel/Alan.jpg" data-title="Alan" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Alanx150.jpg" alt="Alan" /></a>
+					  <a href="galerie/photo_individuel/BenoitLa.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLax150.jpg" alt="Benoît" /></a>
+					  <a href="galerie/photo_individuel/BenoitLi.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLix150.jpg" alt="Benoît" /></a>
+					  <a href="galerie/photo_individuel/Fanny.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Fannyx150.jpg" alt="Fanny" /></a>
+					  <a href="galerie/photo_individuel/Fred2.jpg" data-title="Fred" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Fredx150.jpg" alt="Fred" /></a>
+					  <a href="galerie/photo_individuel/Joffrey.jpg" data-title="Joffrey" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Joffreyx150.jpg" alt="Joffrey" /></a>
+					  <a href="galerie/photo_individuel/Jordan.jpg" data-title="Jordan" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Jordanx150.jpg" alt="Jordan" /></a>
+					  <a href="galerie/photo_individuel/Kevin.jpg" data-title="Kevin" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Kevinx150.jpg" alt="Kevin" /></a>
+						<a href="galerie/photo_individuel/Lise-Claire.jpg" data-title="Lise-Claire" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Lise-Clairex150.jpg" alt="Lise-Claire" /></a>
+					  <a href="galerie/photo_individuel/Mehdi.jpg" data-title="Mehdi" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Mehdix150.jpg" alt="Mehdi" /></a>
+					  <a href="galerie/photo_individuel/Mourad.jpg" data-title="Mourad" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Mouradx150.jpg" alt="Mourad" /></a>
+					  <a href="galerie/photo_individuel/Mylene.jpg" data-title="Mylene" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Mylenex150.jpg" alt="Mehdi" /></a>
+					   <a href="galerie/photo_individuel/Nima.jpg" data-title="Nima" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Nimax150.jpg" alt="Nima" /></a>
+					  <a href="galerie/photo_individuel/Nolwenn.jpg" data-title="Nolwenn" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Nolwennx150.jpg" alt="Jordan" /></a>
+					  <a href="galerie/photo_individuel/Piotr.jpg" data-title="Piotr" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Piotrx150.jpg" alt="Piotr" /></a>
+						<a href="galerie/photo_individuel/Quentin.jpg" data-title="Quentin" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Quentinx150.jpg" alt="Quentin" /></a>
+					  <a href="galerie/photo_individuel/Rita.jpg" data-title="Rita" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Ritax150.jpg" alt="Rita" /></a>
+					  <a href="galerie/photo_individuel/Stephane.jpg" data-title="Stephane" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Stephanex150.jpg" alt="Stephane" /></a>
+					  <a href="galerie/photo_individuel/Sylvain.jpg" data-title="Sylvain" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Sylvainx150.jpg" alt="Sylvain" /></a>
+					  <a href="galerie/photo_individuel/Thibaud.jpg" data-title="Thibaud" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Thibaudx150.jpg" alt="Thibaud" /></a>
+		</section>
+			<section class="clear">
 
-					<p>Et enfin les élèves de la formation</p>
-					<h4>Alan</h4><img src="galerie/photo_individuel/Alan.jpg" alt="alan">
-					<h4>Benoit</h4><img src="galerie/photo_individuel/BenoitLa.jpg" alt="benoitla">
-					<h4>benoit</h4><img src="galerie/photo_individuel/BenoitLi.jpg" alt="benoitli">
-					<h4>Fanny</h4><img src="galerie/photo_individuel/Fanny.jpg" alt="fanny">
-					<h4>Fred</h4><img src="galerie/photo_individuel/Fred.jpg" alt="fred">
-					<h4>Joffrey</h4><img src="galerie/photo_individuel/Joffrey.jpg" alt="joffrey">
-					<h4>Jordan</h4><img src="galerie/photo_individuel/Jordan.jpg" alt="jordan">
-					<h4>Kevin</h4><img src="galerie/photo_individuel/Kevin.jpg" alt="kevin">
-					<h4>Lise claire</h4><img src="galerie/photo_individuel/Lise-Claire.jpg" alt="lise_claise">
-					<h4>Mehdi</h4><img src="galerie/photo_individuel/Mehdi.jpg" alt="mehdi">
-					<h4>Mourad</h4><img src="galerie/photo_individuel/Mourad.jpg" alt="mourad">
-					<h4>Mylène</h4><img src="galerie/photo_individuel/Mylene.jpg" alt="mylene">
-					<h4>Nima</h4><img src="galerie/photo_individuel/Nima.jpg" alt="nima">
-					<h4>Nolwenn</h4><img src="galerie/photo_individuel/Nolwenn.jpg" alt="nolwenn">
-					<h4>Piotr</h4><img src="galerie/photo_individuel/Piotr.jpg" alt="piotr">
-					<h4>Quentin</h4><img src="galerie/photo_individuel/Quentin.jpg" alt="quentin">
-					<h4>Rita</h4><img src="galerie/photo_individuel/Rita.jpg" alt="rita">
-					<h4>Stephane</h4><img src="galerie/photo_individuel/Stephane.jpg" alt="stephane">
-					<h4>Sylvain</h4><img src="galerie/photo_individuel/Sylvain.jpg" alt="sylvain">
-					<h4>Thibaud</h4><img src="galerie/photo_individuel/Thibaud.jpg" alt="thibaud">
-
-
-				<h3>Présentation des locaux Legrand :</h3>
+				<h3>Présentation des locaux Legrand</h3>
 
 					<p>LEGRAND FRANCE, société anonyme à conseil d'administration est en activité depuis 63 ans.
 					Installée à LIMOGES (87000), elle est spécialisée dans le secteur d'activité de la fabrication
@@ -97,7 +108,8 @@
 					salle prevue pour les élèves, refaite a neuf pour l'occasion.
 					</p>
 					<img src="galerie/sliderphoto3.jpg" alt="photos_locaux" width="50%" height="50%">
-</article>
+					</section>
+					</article>
 					<!-- Pied de page -->
 					<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 					</footer>

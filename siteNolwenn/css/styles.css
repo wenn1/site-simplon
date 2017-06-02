@@ -178,17 +178,62 @@ background-color:#CE255A;
 transition: background-color 0.5s;
 }
 
-/* A revoir #sommaire{
-	clear:both;
-    background: none repeat scroll 0 0 #000;
-    border: 1px solid #F6277F;
-    border-radius: 0.25em 0.25em 0.25em 0.25em;
-    width: 30%;
+#sommaire {
+position:fixed;
+top:390px;
+width:12em;
+right:4.5%;
+z-index:10;
 }
 
-#sommaire li{
+#sommaire li {
+list-style-type:square;
+margin-top:2%;
+}
+
+#sommaire li a {
+text-decoration:none;
+color:#777;
+}
+
+#sommaire h4 {
+color:#fff;
+letter-spacing:1px;
+text-align:center;
+text-transform:uppercase;
+line-height:2em;
+font-weight:700;
+background-color:rgba(114, 134, 20, 1);
+}
+
+#sommaire ul li li {
 list-style-type:none;
-} */
+padding-left:5px;
+font-size:.9em;
+}
+
+#sommaire li a:hover {
+color:#333;
+}
+
+.box {
+background-color:#fff;
+border:1px solid #eeece4;
+padding:10% 10% 5%;
+}
+
+figure.galerie {
+position:relative;
+width:100 .5%;
+}
+
+figure.galerie img {
+display:inline;
+float:left;
+width:32.333%;
+max-width:150px;
+margin:1% 1% 0 0;
+}
 
 /* 2 types de page centrale selon les besoins: page full = main2 (pour la page slider, la page formation,...) /
 Et page avec aside pour accéder aux ressources du site = main */
@@ -348,6 +393,21 @@ li.hauteur:first-child {
 border: 1px solid #eee;
 }
 
+<!-- Place either at the bottom in the <head> of your page or inside your CSS -->
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
 /* Footer */
 #footer{
 		clear: both;
@@ -360,7 +420,6 @@ border: 1px solid #eee;
 		border-top: 3px solid #CE255A;
 		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
-
 
 #footer h4 {
 	color: #fbfbfb;
