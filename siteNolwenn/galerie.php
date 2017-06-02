@@ -24,46 +24,51 @@
 					 <h4>Photos de la promotion</h4>
 				</section>
 
-				<section>
+				<section id="sliderpromo">
 				<h4>sliders</h4>
 				<!-- Place somewhere in the <body> of your page -->
-					<div class="flexslider">
+					<div class="flex-container">
+          <div class="flexslider">
 						<ul class="slides">
-							<li>
+							<li data-thumb="galerie/sliderphoto1.jpg">
 							  <img src="galerie/sliderphoto1.jpg" alt="Photo 1" width="140px"/>
+							  <p class="flex-caption">Photo de la promotion au bord de la Vernaison</p>
 							</li>
-							<li>
-							  <img src="galerie/sliderphoto2.jpg" alt="Photo 2" width="140px"/>
+							<li data-thumb="galerie/sliderphoto3.jpg">
+							  <img src="galerie/sliderphoto3.jpg" alt="Photo 3" width="140px"/>
+							  <p class="flex-caption">En classe</p>
 							</li>
-							<li>
-							  <img src="galerie/sliderphoto3.jpg" alt="Photo 3 " width="140px"/>
-							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto4.jpg">
 							  <img src="galerie/sliderphoto4.jpg" alt="Photo 4" width="140px"/>
+							  <p class="flex-caption">En classe</p>
 							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto5.jpg">
 							  <img src="galerie/sliderphoto5.jpg" alt="Photo 5" width="140px"/>
+							  <p class="flex-caption">En classe</p>
 							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto6.jpg">
 							  <img src="galerie/sliderphoto6.jpg" alt="Photo 6" width="140px"/>
+							  <p class="flex-caption">En classe</p>
 							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto7.jpg">
 							  <img src="galerie/sliderphoto7.jpg" alt="Photo 7" width="140px"/>
+							  <p class="flex-caption">En route pour la médiathèque</p>
 							</li>
-							<li>
-							  <img src="galerie/sliderphoto8.jpeg" alt="Photo 8" width="140px"/>
-							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto9.jpg">
 							  <img src="galerie/sliderphoto9.jpg" alt="Photo 9" width="140px"/>
+							  <p class="flex-caption">Exposition Thibault Brunet à la médiathèque de Pont en Royans</p>
 							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto10.jpg">
 							  <img src="galerie/sliderphoto10.jpg" alt="Photo 10" width="140px"/>
+							  <p class="flex-caption">Construction de maquettes avec des légos</p>
 							</li>
-							<li>
+							<li data-thumb="galerie/sliderphoto11.jpg">
 							  <img src="galerie/sliderphoto11.jpg" alt="Photo 11" width="140px"/>
+							  <p class="flex-caption">Construction de maquettes avec des légos</p>
 							</li>
 					  </ul>
 				</div>
+        </div>
 				</section>
 			</article>
 
@@ -72,13 +77,5 @@
 
 			</div><!-- fin #content -->
 
-			<script src="javascript/jquery.flexslider-min.js"></script>
-			<script>// sliders
-			$(document).ready(function() {
-				$('.flexslider').flexslider({
-					animation: "slide"
-				});
-			});
-			</script>
 	</body>
 </html>

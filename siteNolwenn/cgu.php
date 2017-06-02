@@ -3,7 +3,7 @@
 <head>
 	<?php include('include/inc_head.php') ?>
 	<meta name="description" content="titre de la page"/>
-	<title>Condition général d'utilisations</title>
+	<title>Conditions générales d'utilisation</title>
 </head>
 
 <body role="document">
@@ -20,7 +20,7 @@
 		<main id="main" role="main">
 
 							<section class="preambule">
-									<h3 class="preambule_main">Condition générale d'utilisations</h3>
+									<h3 class="preambule_main">Conditions générales d'utilisation</h3>
 								<article> <!-- article 1-->
 									<h3> ARTICLE 1 : Objet </h3>
 									<p>
