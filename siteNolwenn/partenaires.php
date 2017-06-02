@@ -9,17 +9,17 @@
 
 	<body class="partenaires" role="document">
 		<div class="content">
-			<nav class="skip"><?php include('include/inc_skip.php') ?>
-			</nav>
 			<header class="header" role="banner">
-					<?php include('include/inc_header.php') ?>
+			<?php include('include/inc_header.php') ?>
 			</header>
 			<nav class="menu" role="navigation">
 			<?php $nav_en_cours = 'partenaires'; ?>
 			<?php include('include/inc_menu.php') ?>
 			</nav>
-		</div>
-		<div class="logos">
+		
+		<!-- Page principale -->
+		<article id="main2" role="main">
+		<div class="logos clear">
 			<ul class="ligne1">
 				<li><a href="meef26.org" ><img src="logos/logo1.jpg" alt="la meef 26" width="20%"></a></li>
 				<li><a href="www.vercors.org"><img src="logos/logo2.jpg" alt="c.c.Massif du Vercors" width="20%"></a></li>
@@ -32,9 +32,12 @@
 				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
 				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
 			</ul>
+			</div>
+			</article>
 		
-		</div>
+		
 			<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 			</footer>
+		</div>
 	</body>
 </html>
