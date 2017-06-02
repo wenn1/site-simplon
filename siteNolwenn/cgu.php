@@ -3,26 +3,24 @@
 <head>
 	<?php include('include/inc_head.php') ?>
 	<meta name="description" content="titre de la page"/>
-	<title>Condition général d'utilisations</title>
+	<title>Conditions générales d'utilisation</title>
 </head>
 
 <body role="document">
 	<div class="content">
-		<nav class="skip"><?php include('include/inc_skip.php') ?>
-		</nav>
 		<header class="header" role="banner">
 				<?php include('include/inc_header.php') ?>
 		</header>
 
 		<nav class="menu" role="navigation">
-			  <?php $nav_en_cours = 'mentions'; ?>
+		<?php $nav_en_cours = 'mentions'; ?>
 		<?php include('include/inc_menu.php') ?>
 		</nav>
 
 		<main id="main" role="main">
-						<h3 class="preambule_main">Condition générale d'utilisations</h3>
-							<section class="preambule">
 
+							<section class="preambule">
+									<h3 class="preambule_main">Conditions générales d'utilisation</h3>
 								<article> <!-- article 1-->
 									<h3> ARTICLE 1 : Objet </h3>
 									<p>
