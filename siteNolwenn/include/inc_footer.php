@@ -58,8 +58,37 @@
     </div>
 </section>
 
-<script src="javascript/jquery-3.2.1.min.js"></script>
-<script src="javascript/jquery-ui.min.js"></script>
+<script type="text/javascript" src="javascript/jquery-ui.min.js"></script>
+<script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="javascript/lightbox.min.js"></script>
+
+
+
+<script type="text/javascript">// sliders
+    $(document).ready(function() {
+        $('.flexslider').flexslider({
+            animation: 'slide',
+            prevText: '',
+            nextText: '',
+            controlNav: 'thumbnails'
+
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+/*global $ */
+$(document).ready(function () {
+    "use strict";
+    $('#menu-lateral .sub-menu').hide(); //Hide children by default
+    $('#menu-lateral li a').click(function (event) {
+        if ($(this).next('ul.sub-menu').children().length !== 0) {event.preventDefault();
+            }
+        $(this).siblings('.sub-menu').slideToggle('slow');
+    });
+});
+</script>
 
 <!-- Animation bouton haut de page -->
 <script type="text/javascript">
