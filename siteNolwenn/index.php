@@ -45,7 +45,7 @@
 					social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la
 					base de critères sociaux et de leur motivation, et non selon les diplômes.
 					</li>
-
+				<img class="imageFlyer" src="galerie/photoflyer.jpg" alt="Flyer develo'pont">
 			</section>
 		</article>
 		<article id="main">
@@ -60,6 +60,7 @@
 				On visite la salle des eaux du monde, la salle des eaux du Vercors, la salle de  cinéma 3D et le bar à eaux, dans
 				lequel une dégustation d'eaux vous attend.
 				</p>
+				<img class="imageAutre effetProfondeur" src="galerie/image-pont-en-royans.png" alt="Pont-en-Royans">
 			</section>
 		</article>
 		<article id="main">
@@ -71,7 +72,7 @@
 				<br> Elle met à disposition plusieurs salles (cours, repos, administration) ainsi que l'accès à la cafétéria,
 				 de manière à offrir un cadre adapté pour répondre aux besoins des futurs développeurs.
 				 </p>
-							
+				<img class="imageAutre effetProfondeur" src="galerie/sliderphoto3.jpg" alt="Les_Locaux">			
 			</section>
 		</article>
 					<!-- Partie latérale -->

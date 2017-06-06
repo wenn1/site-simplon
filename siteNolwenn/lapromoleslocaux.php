@@ -24,18 +24,28 @@
 			<section id="main">
 				<h3>La promotion Dévelo'pont</h3>
 				<h4>Présentation</h4>
-					<p>DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO .
+					<p>
+					DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO. 
 					C'est une formation GRATUITE, INTENSIVE, QUALIFIANTE de 7 mois en développement web et mobile.
 					Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités
-					locales dans leur développement numérique.</p>
-					<p>Accueillis gracieusement dans les locaux de l'usine Legrand, grâce à Laurent Besson,
+					locales dans leur développement numérique. 
+					</p>
+					<p>
+					Accueillit gracieusement dans les locaux de l'usine Legrand, grâce à Laurent Besson,
 					technicien du groupe et surtout bénévole de l'EPN qui, lui aussi, a fait un énorme travail dans la
-					mise en place de cette formation</p>
-					<p>La formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared),
+					mise en place de cette formation. 
+					</p>
+					<p>
+					La formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared),
 					financé par la Région et POEC : préparation opérationnelle à l'emploi collectif financée par OPCALIA.
 					Elle est encadrée par les bénévoles de l'EPN, deux formateurs, une administratrice et une chargée des
-					relations entreprise, tous Pontois.</p>
-					<p>Les candidatures pour cette formation ont commencé le 20 janvier 2017; près d'une centaine de participants ont été accueillis; au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise</p>
+					relations entreprises, tous Pontois.
+					</p>
+					<p>
+					Les candidatures pour cette formation ont commencé le 20 janvier 2017; 
+					près d'une centaine de participants ont été accueillis; 
+					au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise
+					</p>
 			</section>
 
 			<section id="main">

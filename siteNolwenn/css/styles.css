@@ -250,6 +250,7 @@ Et page avec aside pour accéder aux ressources du site = main */
 		margin-right:1%;
 		box-shadow:5px 5px 5px 0 rgba(0,0,0,0.6);
 		border-radius: 20px;
+		margin-left: 1em;
 }
 
 #main2 {
@@ -511,3 +512,17 @@ padding:1em;
 	border: none;
 	background-color: rgba(255, 255, 255, 1);
 }
+/* image-accueil */
+.imageFlyer {
+margin-top: 10px;
+border: 1px solid black;
+}
+.imageAutre{
+border-radius: 5em;
+}
+.effetProfondeur{
+box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+
+
