@@ -30,7 +30,7 @@
 				<li><a href="http://www.europe-centre.eu/"><img src="logos/logo5.jpg" alt="Programme LEADER" width="20%"></a></li>
 				<li><a href="https://www.legrand.fr"><img src="logos/logo6.jpg" alt="Société Legrand" width="20%"></a></li>
 				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
-				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
+				<li><a href=""><img src="logos/logo8.jpg" alt="c.c.sud Grésivaudan" width="20%"></a></li>
 			</ul>
 		
 		</div>
