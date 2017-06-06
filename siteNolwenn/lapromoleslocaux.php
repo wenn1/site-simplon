@@ -73,7 +73,7 @@
 					  <a href="galerie/photo_individuel/Mourad.jpg" data-title="Mourad" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Mouradx150.jpg" alt="Mourad" /></a>
 					  <a href="galerie/photo_individuel/Mylene.jpg" data-title="Mylene" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Mylenex150.jpg" alt="Mehdi" /></a>
 					   <a href="galerie/photo_individuel/Nima.jpg" data-title="Nima" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Nimax150.jpg" alt="Nima" /></a>
-					  <a href="galerie/photo_individuel/Nolwenn.jpg" data-title="Nolwenn" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Nolwennx150.jpg" alt="Jordan" /></a>
+					  <a href="galerie/photo_individuel/Nolwenn.jpg" data-title="Nolwenn" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/nolwennx150.jpg" alt="Jordan" /></a>
 					  <a href="galerie/photo_individuel/Piotr.jpg" data-title="Piotr" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Piotrx150.jpg" alt="Piotr" /></a>
 						<a href="galerie/photo_individuel/Quentin.jpg" data-title="Quentin" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Quentinx150.jpg" alt="Quentin" /></a>
 					  <a href="galerie/photo_individuel/Rita.jpg" data-title="Rita" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Ritax150.jpg" alt="Rita" /></a>
