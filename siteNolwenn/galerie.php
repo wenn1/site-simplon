@@ -30,19 +30,19 @@
 					</li>
 					<li>
 					  <img src="galerie/sliderphoto3.jpg" alt="Photo 3"/>
-					  <p class="flex-caption">En classe</p>
+					  <p class="flex-caption">Les élèves qui travaillent sur leurs postes respectifs</p>
 					</li>
 					<li>
 					  <img src="galerie/sliderphoto4.jpg" alt="Photo 4"/>
-					  <p class="flex-caption">En classe</p>
+					  <p class="flex-caption">Les élèves commencent à créer leurs CV en HTML et CSS</p>
 					</li>
 					<li>
 					  <img src="galerie/sliderphoto5.jpg" alt="Photo 5"/>
-					  <p class="flex-caption">En classe</p>
+					  <p class="flex-caption">Un élève travaille sur CodeAcademy</p>
 					</li>
 					<li>
 					  <img src="galerie/sliderphoto6.jpg" alt="Photo 6"/>
-					  <p class="flex-caption">En classe</p>
+					  <p class="flex-caption">Une élève créée sont CV en HTML et CSS</p>
 					</li>
 					<li>
 					  <img src="galerie/sliderphoto7.jpg" alt="Photo 7"/>

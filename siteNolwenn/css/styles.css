@@ -21,6 +21,7 @@ body:before { /* image d'arrière-plan flou sans perdre la lisibilité du conten
 	background-position: center center;
 	background-attachment: fixed;
 	z-index: -1; /* Keep the background behind the content */
+	filter: contrast(200%);
 }
 
 body {
@@ -103,14 +104,6 @@ h4 {
 
 h5 {
 font-size:1em;
-}
-
-.header span:before {
-    content: '{ ';
-}
-
-.header span:after {
-    content: ' }';
 }
 
 .logo {
@@ -240,15 +233,11 @@ margin:1% 1% 0 0;
 Et page avec aside pour accéder aux ressources du site = main */
 #main {
 		background: none repeat scroll 0 0 #FFF;
-		width:65%;
 		padding: 1em 5%;
 		float:left;
-		margin-top:1em;
-		margin-bottom: 1em;
-		margin-right:1%;
 		box-shadow:5px 5px 5px 0 rgba(0,0,0,0.6);
 		border-radius: 20px;
-		margin-left: 1em;
+		margin: 1em;
 }
 
 #main2 {
@@ -542,9 +531,13 @@ padding:1em;
 .imageFlyer {
 margin-top: 10px;
 border: 1px solid black;
+margin-left: 20%;
+margin-right: 1em;
 }
 .imageAutre{
 border-radius: 5em;
+margin-left: 20%;
+margin-right: 1em;
 }
 .effetProfondeur{
 box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.3) inset;
@@ -553,4 +546,18 @@ box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.3) inset;
 .VerticalAlignTop{
 vertical-align: top;
 }
+/* liste accueil */
+.listeAccueil{
+padding-left: 1em;
+}
+/* Image des locaux */
+.imageLocaux{
+width: 23.3em;
+height: 13.3em;
+}
 
+/* Couleur du second titre header */
+span.ColorHeaderH2{
+color: gray;
+
+}

@@ -73,7 +73,7 @@
 						<a href="galerie/photo_individuel/Alan.jpg" data-title="Alan" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Alanx150.jpg" alt="Alan" /></a>
 					  <a href="galerie/photo_individuel/BenoitLa.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLax150.jpg" alt="Benoît" /></a>
 					  <a href="galerie/photo_individuel/BenoitLi.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLix150.jpg" alt="Benoît" /></a>
-					  <a href="galerie/photo_individuel/Fanny.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Fannyx150.jpg" alt="Fanny" /></a>
+					  <a href="galerie/photo_individuel/Fanny.jpg" data-title="Fanny" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Fannyx150.jpg" alt="Fanny" /></a>
 					  <a href="galerie/photo_individuel/Fred2.jpg" data-title="Fred" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Fredx150.jpg" alt="Fred" /></a>
 					  <a href="galerie/photo_individuel/Joffrey.jpg" data-title="Joffrey" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Joffreyx150.jpg" alt="Joffrey" /></a>
 					  <a href="galerie/photo_individuel/Jordan.jpg" data-title="Jordan" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Jordanx150.jpg" alt="Jordan" /></a>
@@ -94,30 +94,17 @@
 			<section id="main" class="clear">
 
 				<h3>Présentation des locaux Legrand</h3>
+					
+					<a href="galerie/imageLocaux1.JPG" data-title="Salle des élèves" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux1.JPG" alt="Salle des élèves"></a>
+					<a href="galerie/imageLocaux2.JPG" data-title="Salle administrative" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux2.JPG" alt="Salle administrative"></a>
+					<a href="galerie/imageLocaux3.JPG" data-title="Salle de pose" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux3.JPG" alt="Salle de pose"></a>
+					<a href="galerie/imageLocaux4.jpg" data-title="cafétéria" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux4.jpg" alt="cafétéria"></a>
 
-					<p>LEGRAND FRANCE, société anonyme à conseil d'administration est en activité depuis 63 ans.
-					Installée à LIMOGES (87000), elle est spécialisée dans le secteur d'activité de la fabrication
-					de matériel d'installation électrique. Son effectif est compris entre 3900 et 3999 salariés.
-					Patrice SOUDAN, est président du conseil d'administration de la société LEGRAND FRANCE.</p>
-					<p>En 2011, Legrand est no 1 mondial des prises et interrupteurs avec 20 % du marché mondial et no 1
-					mondial du cheminement de câbles (15 % du marché mondial) et réalise 76 % de son chiffre d'affaires à
-					l'international (35 % dans les pays émergents). L'entreprise est leader dans au moins un de ses grands
-					domaines d'activité dans 27 pays</p>
-					<p>L'établissement, situé LE BREUIL à PONT EN ROYANS (38680), est un établissement secondaire de
-					l'entreprise LEGRAND FRANCE. Créé le 29-06-2007, son activité est la fabrication de matériel de
-					distribution et de commande électrique. Au 03-01-2017 cet établissement emploie entre 20 et 49 salariés.</p>
-					<p>Le groupe s'est récemment lancé dans une montée en gamme de son offre d'appareillage, avec le lancement
-					de produits haut de gamme : Axolute en Italie ainsi que Céliane et Art (pour la marque Arnould) en France (
-					interrupteurs design et technologiques -domotique intégrée- en décoration d'intérieur) et Arteor en Asie.
-					Le groupe développe également ses offres autour du développement durable et des économies d'énergie avec
-					une offre de protection pour installations photovoltaïques ou encore une offre de contrôle d'éclairage.</p>
-
-					<p>Petite documentation sur le travail de Legrand : <a href="https://www.legrand.fr/sites/default/files/art_darnould.pdf" target="_blank">ici</a></p>
+					<p>Documentation sur le travail de Legrand : <a class="contact" href="https://www.legrand.fr/sites/default/files/art_darnould.pdf" target="_blank">ici</a></p>
 
 					<p>Ce seront donc dans les locaux de Legrand a pont-en-royans, que la formation se passera, dans une
 					salle prevue pour les élèves, refaite a neuf pour l'occasion.
 					</p>
-					<img src="galerie/sliderphoto3.jpg" alt="photos_locaux" width="50%" height="50%">
 			</section>
 		</article>
 					<!-- Pied de page -->
