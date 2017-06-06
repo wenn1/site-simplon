@@ -17,21 +17,19 @@
 			<?php include('include/inc_menu.php') ?>
 
 			</nav>
-		</div>
-		<article id="main2" role="main">
+		
+		<article  role="main">
 		<div class="logos clear">
-			<ul class="ligne1">
-				<li><a href="meef26.org" ><img src="logos/logo1.jpg" alt="la meef 26" width="20%"></a></li>
-				<li><a href="www.vercors.org"><img src="logos/logo2.jpg" alt="c.c.Massif du Vercors" width="20%"></a></li>
-				<li><a href="cc-royans-vercors.org"><img src="logos/logo3.png" alt="c.c.Pays du Royans" width="20%"></a></li>
-				<li><a href="www.vercos.net"><img src="logos/logo4.jpg" alt="c.c.du Vercors" width="20%"></a></li>
-			</ul>
-			<ul class="ligne2">
-				<li><a href="http://www.europe-centre.eu/"><img src="logos/logo5.jpg" alt="Programme LEADER" width="20%"></a></li>
-				<li><a href="https://www.legrand.fr"><img src="logos/logo6.jpg" alt="Société Legrand" width="20%"></a></li>
-				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
-				<li><a href="www.communaute.sud-gresivaudan.org"><img src="logos/logo8.jpg" alt="c.c.sud Grésivaudan" width="20%"></a></li>
-			</ul>
+			
+				<a href="meef26.org" ><img id="log1" src="logos/logo1.jpg" alt="la meef 26" ></a>
+				<a href="www.vercors.org"><img id="log2" src="logos/logo2.jpg" alt="c.c.Massif du Vercors" ></a>
+				<a href="cc-royans-vercors.org"><img id="log3" src="logos/logo3.png" alt="c.c.Pays du Royans"></a>
+				<a href="www.communaute.sud-gresivaudan.org"><img id="log4" src="logos/logo8.jpg" alt="c.c.sud Grésivaudan" ></a>
+				<a href="http://www.europe-centre.eu/"><img id="log5" src="logos/logo5.jpg" alt="Programme LEADER"></a>
+				<a href="https://www.legrand.fr"><img id="log6" src="logos/logo6.png" alt="Société Legrand"> </a>
+				<a href="www.emploi-pvsg.org"><img id="log7" src="logos/logo7.jpg" alt="Maison de l'Emploi" ></a>
+				<a href="www.vercos.net"><img id="log8" src="logos/logo4.jpg" alt="c.c.du Vercors" ></a>
+			
 		</div>	
 		</article>
 

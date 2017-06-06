@@ -406,7 +406,29 @@ border: 1px solid #eee;
   font-size: 14px;
   line-height: 18px;
 }
-
+/*page partenaires logos*/ 
+.logos a{ 
+display:inline-block;
+margin: 3.2em ;
+}
+#log2 {
+padding-bottom: 1.3em;
+}
+#log3{
+padding-bottom: 2em;
+}
+#log4{
+padding-bottom: 8em;
+}
+#log6{
+padding-bottom: 8em;
+}
+#log7{
+padding-left: 10em;
+}
+#log8{
+padding-left: 10em;
+}
 
 /* Footer */
 #footer{
