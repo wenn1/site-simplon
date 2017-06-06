@@ -15,9 +15,9 @@
 			<nav class="menu" role="navigation">
 			<?php $nav_en_cours = 'partenaires'; ?>
 			<?php include('include/inc_menu.php') ?>
+
 			</nav>
-		
-		<!-- Page principale -->
+		</div>
 		<article id="main2" role="main">
 		<div class="logos clear">
 			<ul class="ligne1">
@@ -30,12 +30,11 @@
 				<li><a href="http://www.europe-centre.eu/"><img src="logos/logo5.jpg" alt="Programme LEADER" width="20%"></a></li>
 				<li><a href="https://www.legrand.fr"><img src="logos/logo6.jpg" alt="Société Legrand" width="20%"></a></li>
 				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
-				<li><a href="www.emploi-pvsg.org"><img src="logos/logo7.jpg" alt="Maison de l'Emploi" width="20%"></a></li>
+				<li><a href="www.communaute.sud-gresivaudan.org"><img src="logos/logo8.jpg" alt="c.c.sud Grésivaudan" width="20%"></a></li>
 			</ul>
-			</div>
-			</article>
-		
-		
+		</div>	
+		</article>
+
 			<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 			</footer>
 		</div>
