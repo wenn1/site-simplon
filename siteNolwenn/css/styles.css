@@ -16,13 +16,12 @@ body:before { /* image d'arrière-plan flou sans perdre la lisibilité du conten
 	content: "";
 	position: fixed;
 	height: 100%; width: 100%;
-	background: url(img/Pont_en_Royans2.jpg);
+	background: url(img/imagetest12.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
 	z-index: -1; /* Keep the background behind the content */
-	-webkit-filter: blur(8px);
 	-webkit-background-size: cover; /* pour Chrome et Safari */
 	-moz-background-size: cover; /* pour Firefox */
 	-o-background-size: cover; /* pour Opera */
