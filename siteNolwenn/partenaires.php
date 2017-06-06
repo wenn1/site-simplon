@@ -33,6 +33,7 @@
 		</div>	
 		</article>
 
+
 			<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 			</footer>
 		</div>
