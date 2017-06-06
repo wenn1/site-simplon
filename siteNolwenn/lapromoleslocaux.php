@@ -19,9 +19,9 @@
 					<?php include('include/inc_menu.php') ?>
 					</nav>
 
-			<article id="main">
+		<article>
 
-				<section>
+			<section id="main">
 				<h3>La promotion Dévelo'pont</h3>
 				<h4>Présentation</h4>
 					<p>DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO .
@@ -36,9 +36,9 @@
 					Elle est encadrée par les bénévoles de l'EPN, deux formateurs, une administratrice et une chargée des
 					relations entreprise, tous Pontois.</p>
 					<p>Les candidatures pour cette formation ont commencé le 20 janvier 2017; près d'une centaine de participants ont été accueillis; au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise</p>
-					</section>
+			</section>
 
-				<section>
+			<section id="main">
 						<div class="ancre"><span id="galerie"></span></div>
 							<div class="galerie-container">
 								<h3 class="page-header">Galerie photos</h3>
@@ -52,13 +52,13 @@
 						</div>
 		    </section>
 
-				<section class="clear">
+			<section id="main" class="clear">
 					<h4>les enseignants</h4>
 					<a href="galerie/photo_individuel/Arnaud.jpg" data-title="Arnaud" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Arnaudx150.jpg" alt="Arnaud" /></a>
 					<a href="galerie/photo_individuel/Jerome.jpg" data-title="Jérôme" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Jeromex150.jpg" alt="Jérôme" /></a>
-				</section>
+			</section>
 
-<section class="clear">
+			<section id="main" class="clear">
 					<h4>Et enfin les élèves de la formation</h4>
 						<a href="galerie/photo_individuel/Alan.jpg" data-title="Alan" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Alanx150.jpg" alt="Alan" /></a>
 					  <a href="galerie/photo_individuel/BenoitLa.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLax150.jpg" alt="Benoît" /></a>
@@ -80,8 +80,8 @@
 					  <a href="galerie/photo_individuel/Stephane.jpg" data-title="Stephane" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Stephanex150.jpg" alt="Stephane" /></a>
 					  <a href="galerie/photo_individuel/Sylvain.jpg" data-title="Sylvain" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Sylvainx150.jpg" alt="Sylvain" /></a>
 					  <a href="galerie/photo_individuel/Thibaud.jpg" data-title="Thibaud" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Thibaudx150.jpg" alt="Thibaud" /></a>
-		</section>
-			<section class="clear">
+		  </section>
+			<section id="main" class="clear">
 
 				<h3>Présentation des locaux Legrand</h3>
 
@@ -108,8 +108,8 @@
 					salle prevue pour les élèves, refaite a neuf pour l'occasion.
 					</p>
 					<img src="galerie/sliderphoto3.jpg" alt="photos_locaux" width="50%" height="50%">
-					</section>
-					</article>
+			</section>
+		</article>
 					<!-- Pied de page -->
 					<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 					</footer>

@@ -43,7 +43,10 @@ a {color:#fff; font-weight:bold; text-decoration : none;}
 a:link,a:visited,a:hover,a:active {
 outline:none;
 }
-
+/*---------------- liens page contact ------------*/
+a.contact{
+	color: #0040FF;
+}
 /* ----------------- #header ---------------- */
 .header {
 	box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
@@ -245,7 +248,8 @@ Et page avec aside pour accéder aux ressources du site = main */
 		margin-top:1em;
 		margin-bottom: 1em;
 		margin-right:1%;
-		box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
+		box-shadow:5px 5px 5px 0 rgba(0,0,0,0.6);
+		border-radius: 20px;
 }
 
 #main2 {
