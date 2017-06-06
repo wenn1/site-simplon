@@ -2,9 +2,17 @@
 															<h4>Develo'Pont ? Qu'est-ce que c'est ?</h4>								<p>
 								Cette formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared), financé par la Région et POEC :								préparation opérationnelle à l'emploi collectif financée par OPCALIA. Elle sera encadrée par les bénévoles de l'EPN, deux formateurs,								une administratrice et une chargée des relations entreprise, tous Pontois.
 								</p>
-							</section>							<section id="main">								<h4>Combien de temps dure la formation ?</h4>						 		<p>
+								<img src="galerie/logosimplon.png" alt="Logo Simplon">
+							</section>
+							
+														<section id="main">								<h4>Combien de temps dure la formation ?</h4>						 		<p>
 						 		6 mois à temps plein sur le centre de formation (avec ou sans 6 mois de stage supplémentaire) :								vous êtes à temps plein (35h) sur votre centre et vous avez la possibilité à la fin de la formation de								faire 6 mois de stage pour compléter votre apprentissage.
-								</p>							</section>
+								</p>
+								<img src="galerie/imageTemps.jpg" alt="">							</section>
+							
+							
 							<section id="main">								<h4>Que faites-vous durant les 6 mois de formation ?</h4>								<p><span class="gris"> Chaque centre de formation possède sa spécialité de langages informatiques.</span></p>								<p>Consultez les différents programmes ci-dessous pour en savoir plus</p>								 	 <?php include('ModuleTableau/ModuleTableau.html') ?>							</section>
+							
+							
 							<section id="main">								<h4>Quels sont les débouchés après la formation ?</h4>								<ul>									<li> <span class="gris">Développeur junior</span>, pour continuer à se former au sein d’une équipe</li>									<li><span class="gris">Intégrateur web</span>, UX designer…</li>									<li>Ou auront la possibilité de mettre à profit les compétences techniques acquises pendant la formation pour exercer d’autres métiers :<span class="gris"> chef de projet web, formateur ou médiateur numérique </span>, community manager…</li>								</ul>
 															</section>				</article>				<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>				</footer>						</div><!-- fin #content -->				</body>			</html>

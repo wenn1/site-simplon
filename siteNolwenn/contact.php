@@ -29,28 +29,28 @@
 				<fieldset>
 				<legend>Nous contacter par mail</legend>
 				<p class="field">
-					<label for="nom1">*Nom</label>
+					<label for="nom1">*Nom: </label>
 					<input type="text" name="nom1" id="nom1" value="" size="15" maxlength="20" placeholder="Saisir votre nom"/>
 				</p>
 
 				<p class="field">
-					<label for="prenom1">*Prénom</label>
+					<label for="prenom1">*Prénom: </label>
 					<input type="text" name="prenom1" id="nom1" value="" size="15" maxlength="20" placeholder="Saisir votre prénom"/>
 				</p>
 
 				<p class="field">
-					<label for="email">*Email</label>
+					<label for="email">*Email: </label>
 					<input id="email" class="h5-email" type="email"
 					maxlength="40" size="30" name="email" required="required" value="" placeholder="Saisir une adresse email valide"/>
 				</p>
 
 				<p class="field">
-					<label for="sujet">*Objet du message</label>
+					<label for="sujet">*Objet du message: </label>
 					<input id="sujet" class="h5-sujet" type="sujet" maxlength="30" size="20" name="sujet" required="required" value=""
 					placeholder="objet du message"/>
 				</p>
 				<p class="field">
-					<label for="nom2">*Message</label>
+					<label for="nom2" class="VerticalAlignTop">*Message:</label>
 					<textarea name="message" id="nom2" cols="80" rows="4" placeholder="Saisir votre message"></textarea>
 				</p>
 				<p class="button">
