@@ -36,7 +36,7 @@
 				</p>
 				<p>Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :</p>
 				
-				<ul>
+				<ul class="listeAccueil">
 					<li>
 					économique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du
 					numérique engagées dans cette démarche citoyenne.
