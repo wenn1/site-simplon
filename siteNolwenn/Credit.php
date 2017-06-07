@@ -13,7 +13,7 @@
 		</header>
 
 		<nav class="menu" role="navigation">
-			<?php $nav_en_cours = 'mentions'; ?>
+			<?php $nav_en_cours = 'credit'; ?>
 			<?php include('include/inc_menu.php') ?>
 		</nav>
 
