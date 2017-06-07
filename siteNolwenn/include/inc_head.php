@@ -1,4 +1,5 @@
 <meta charset="utf-8"/>
+<link rel="icon" type="image/png" href="galerie/favicon.png" />
 <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/styles.css"/>
 <link href="css/flexslider.css" rel="stylesheet"/>
