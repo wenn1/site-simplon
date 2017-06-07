@@ -37,7 +37,7 @@
 					<p><strong>ETAPE 1:</strong></p>	
 						
 						<p>CANDIDATURE EN LIGNE. Ouverture du formulaire du 20 janvier 2017 au 21 mars 2017 minuit.
-						 Profitez de ces quelques jours pour vous entraîner et passer des badges sur le site, disponible en français,<a class="contact" href="https://www.codecademy.com">(www.codeacademy.com )</a>;
+						 Profitez de ces quelques jours pour vous entraîner et passer des badges sur le site, disponible en français,<a class="contact" target="blank" href="https://www.codecademy.com">(www.codeacademy.com )</a>.
 						Votre profil sur Codecademy, devra être public.</p>
 						<p><strong>ETAPE 2 :</strong></p>
 						<p>ENTRETIENS DE SELECTION Si votre candidature est retenue, vous serez convoqué(e) à un entretien de sélection qui se déroulera la première quinzaine de mars.</p>
@@ -54,7 +54,7 @@
 								<h3 class="page-header">Galerie photos</h3>
 								<h4>Présentation de l'administration</h4>
 								<div class="galerie clear">
-								<p>La formation est sous la responsabilité de Line-Rose, présidente de l'EPN, Chloé et Charlène la seconde toute la partie administrative</p>
+								<p>La formation est sous la responsabilité de Line-Rose, présidente de l'EPN, Chloé et Charlène la seconde pour toute la partie administrative</p>
 										  <a href="galerie/photo_individuel/Line_Rose.jpg" data-title="Line-Rose" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Line_Rosex150.jpg" alt="Line-Rose" /></a>
 										  <a href="galerie/photo_individuel/Charlene.jpg" data-title="Charlène" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Charlenex150.jpg" alt="Charlene" /></a>
 										  <a href="galerie/photo_individuel/Chloe.jpg" data-title="Chloé" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Chloex150.jpg" alt="Chloe" /></a>
