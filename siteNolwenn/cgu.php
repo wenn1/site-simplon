@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
 	<?php include('include/inc_head.php') ?>
-	<meta name="description" content="Mentions légales"/>
-	<title>Mentions légales</title>
+	<meta name="description" content="titre de la page"/>
+	<title>Conditions générales d'utilisation</title>
 </head>
 
 <body role="document">
@@ -47,7 +47,7 @@
 									L'édition du site Develo'Pont est assurée par l'association Simplon.
 									</p>
 									<p>
-									Le Directeur de la publication est Monsieur Willhem
+									Le Directeur de la publication est Monsieur Willhelm
 									</p>
 								</article>
 
