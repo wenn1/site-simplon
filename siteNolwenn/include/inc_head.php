@@ -1,5 +1,4 @@
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" media="all" href="css/base.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/styles.css"/>
 <link href="css/flexslider.css" rel="stylesheet"/>
