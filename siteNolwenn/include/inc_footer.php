@@ -4,9 +4,9 @@
 
 <section class="menu_footer">
   <ul>
-    <li><a href="#">A propos</a></li>
+    <li <?php if ($nav_en_cours == 'apropo') {echo 'id="in_current"';} ?> ><a href="Apropo.php">A propos</a></li>
     <li <?php if ($nav_en_cours == 'mentions') {echo 'id="in_current"';} ?> ><a href="cgu.php">Mentions légales</a></li>
-    <li><a href="#">Crédits</a></li>
+    <li <?php if ($nav_en_cours == 'credit') {echo 'id="in_current"';} ?> ><a href="Credit.php">Crédits</a></li>
   </ul>
 </section>
 
