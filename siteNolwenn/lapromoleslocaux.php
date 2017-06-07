@@ -25,15 +25,15 @@
 				<h3>La promotion Dévelo'pont</h3>
 				<h4>Présentation</h4>
 					<p>
-					DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO.
+					DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO. 
 					C'est une formation GRATUITE, INTENSIVE, QUALIFIANTE de 7 mois en développement web et mobile.
 					Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités
-					locales dans leur développement numérique.
+					locales dans leur développement numérique. 
 					</p>
 					<p>
 					Accueillit gracieusement dans les locaux de l'usine Legrand, grâce à Laurent Besson,
 					technicien du groupe et surtout bénévole de l'EPN qui, lui aussi, a fait un énorme travail dans la
-					mise en place de cette formation.
+					mise en place de cette formation. 
 					</p>
 					<p>
 					La formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared),
@@ -42,8 +42,8 @@
 					relations entreprises, tous Pontois.
 					</p>
 					<p>
-					Les candidatures pour cette formation ont commencé le 20 janvier 2017;
-					près d'une centaine de participants ont été accueillis;
+					Les candidatures pour cette formation ont commencé le 20 janvier 2017; 
+					près d'une centaine de participants ont été accueillis; 
 					au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise
 					</p>
 			</section>
@@ -53,12 +53,12 @@
 							<div class="galerie-container">
 								<h3 class="page-header">Galerie photos</h3>
 								<h4>Présentation de l'administration</h4>
-								<div class="galerie">
-								<p>La formation est gérée administrativement par Line-Rose, présidente de l'EPN, Chloé et Charlène gèrent toute la partie administrative</p>
+								<figure class="galerie">
+								<figcaption >La formation est gérée administrativement par Line-Rose, présidente de l'EPN, Chloé et Charlène gèrent toute la partie administrative</figcaption>
 										  <a href="galerie/photo_individuel/Line_Rose.jpg" data-title="Line-Rose" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Line_Rosex150.jpg" alt="Line-Rose" /></a>
 										  <a href="galerie/photo_individuel/Charlene.jpg" data-title="Charlène" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Charlenex150.jpg" alt="Charlene" /></a>
 										  <a href="galerie/photo_individuel/Chloe.jpg" data-title="Chloé" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Chloex150.jpg" alt="Chloe" /></a>
-								</div>
+								</figure>
 						</div>
 		    </section>
 
