@@ -57,7 +57,7 @@ a.contact{
 	box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 	background: none repeat scroll 0 0 rgba(250, 250, 250, 1);
 	width:100%;
-	height:200px;
+	height:12.5em;
 }
 
 .header h1, .header h2 {
@@ -66,10 +66,10 @@ a.contact{
 }
 
 .header hgroup {
-line-height: 60px;
+line-height: 3.75em;
 position: relative;
 margin-top: 2em;
-margin-left: 65px;
+margin-left: 4.0625em;
 float: left;
 text-align: center;
 font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
@@ -96,7 +96,7 @@ h3 {
 .heading_page {
 	text-transform: uppercase;
 	border-bottom: 1px solid #eee;
-  margin: 20px 0 20px;
+ 	margin: 1.25em 0 1.25em;
 }
 
 h3.heading_page {
@@ -133,7 +133,7 @@ float:left;
 
 .content { /* Partie centrale */
 	  background: none repeat scroll 0 0 rgba(239, 233, 226, 0.5);
-	  max-width: 1200px;
+	  max-width: 1200px; /* Ne pas modifier , dans le cas inverse: 75em */
 	  margin: 0 auto;
 	  position: relative;
 }
@@ -144,8 +144,8 @@ clear:both;
 margin:0;
 padding: 0;
 background-color:#333;
-height:36px;
-line-height: 36px;
+height:2.25em;
+line-height: 36px; /* modifier en 2.25em si nécessaire */
 color: #fbfbfb;
 /*box-shadow:0 0 5px 0 rgba(0,0,0,0.3);*/
 }
@@ -185,7 +185,7 @@ transition: background-color 0.5s;
 
 #sommaire {
 position:fixed;
-top:250px;
+top:15.625em;
 width:15em;
 right:4%;
 z-index:10;
@@ -239,7 +239,7 @@ figure.galerie img {
 display:inline;
 float:left;
 width:32.333%;
-max-width:150px;
+max-width:150px; /* à modifier si nécessaire */
 margin:1% 1% 0 0;
 }
 
