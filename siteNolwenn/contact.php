@@ -71,17 +71,17 @@
 				<section>
 				
 					<h3 class="heading_page">Itinéraires</h3>
-						<img id="dessin"src="galerie/dessinRegion.gif" alt="dessin de la région">
+					
 					<h4>Plans de route</h4>
 					
-			
-					<p> <a target="_blank" class="contact" href="https://fr.mappy.com/#/8/M2/TItinerary/IFRSaint-Marcellin%2038160|TOPont-en-Royans%2038680|GP1.442|GTpetrol/N151.12061,6.11309,5.50796,45.19107/Z10/">Depuis St Marcellin(25 min)</a></p>
+					<h5>Depuis Saint-Marcellin à 25 minutes de route</h5>
+					<p> <a target="_blank" class="contact" href="https://fr.mappy.com/#/6/M2/TItinerary/IFRGrenoble%2038000-38100|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.11601,44.99795/Z11/">plan de route</a></p>
 					
-				
-					<p> <a target="_blank" class="contact" href="https://fr.mappy.com/#/6/M2/TItinerary/IFRGrenoble%2038000-38100|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.11601,44.99795/Z11/">Depuis Grenoble(50 min)</a></p>
+					<h5>Depuis Grenoble à 50 minutes de route</h5>
+					<p> <a target="_blank" class="contact" href="https://fr.mappy.com/#/6/M2/TItinerary/IFRGrenoble%2038000-38100|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.11601,44.99795/Z11/"> plan de route</a></p>
 					
-					
-					<p><a target="_blank" class="contact" href="https://fr.mappy.com/#/8/M2/TItinerary/IFRValence%2026000|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.30803,45.10758/Z11/">Depuis Valence(45 min)</a></p>
+					<h5>Depuis Valence à 50 minutes de route</h5>
+					<p><a target="_blank" class="contact" href="https://fr.mappy.com/#/8/M2/TItinerary/IFRValence%2026000|TOPont-en-Royans%2038680|GP1.446|GTpetrol/N151.12061,6.11309,5.30803,45.10758/Z11/"> plan de route</a></p>
 					
 
 				</section>

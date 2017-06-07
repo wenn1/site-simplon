@@ -56,22 +56,22 @@ header {background:#FFF;}
 }
 
 .header hgroup {
-	height: 4.375em;
-	line-height: 3.125em;
-	position: relative;
-	margin-top: 2em;
-	margin-left: 4.0625em;
-	float: left;
-	text-align: center;
-	font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
-	font-weight: 700;
-	padding-top: 2em;
+height: 4.375em;
+line-height: 3.125em;
+position: relative;
+margin-top: 2em;
+margin-left: 4.0625em;
+float: left;
+text-align: center;
+font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+padding-top: 2em;
 }
 
 h1 { /* Title Develo'pont */
-	color: #333;
-	font-size: 4.2em;
-	letter-spacing: 1pt;
+		color: #333;
+		font-size: 4.2em;
+		letter-spacing: 1pt;
 }
 
 h2 { /* Subtitle */
@@ -103,7 +103,7 @@ h4 {
 }
 
 h5 {
-	font-size:1em;
+font-size:1em;
 }
 
 .logo {
@@ -130,28 +130,29 @@ float:left;
 
 /* Menu principal */
 .menu {
-	clear:both;
-	margin:0;
-	padding: 0;
-	background-color:#333;height:2.25em;
-		line-height: 2.25em;
-	color: #fbfbfb;
-	box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
+clear:both;
+margin:0;
+padding: 0;
+background-color:#333;
+height:2.25em;
+line-height: 2.25em;
+color: #fbfbfb;
+box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 }
 
 .menu ul {
-	text-transform:uppercase;
-	list-style:none;
-	font-size:.85em;
-	margin:3.75em 0 0;
-	margin-left:1em;
+text-transform:uppercase;
+list-style:none;
+font-size:.85em;
+margin:3.75em 0 0;
+margin-left:1em;
 }
 
 .menu ul li{
-	position:relative;
-	list-style-type:none;
-	margin: 0 0.7em;
-	display: inline-block;
+position:relative;
+list-style-type:none;
+margin: 0 0.7em;
+display: inline-block;
 }
 
 .menu ul li a {
@@ -161,71 +162,71 @@ padding:9.5px .7em;
 }
 
 #en-cours a {
-	background-color:#CE255A;
-	color:#fff;
+background-color:#CE255A;
+color:#fff;
 }
 
 .menu a:hover {
-	color:#fff;
-	background-color:#CE255A;
-	transition: background-color 0.5s;
+color:#fff;
+background-color:#CE255A;
+transition: background-color 0.5s;
 }
 
 #sommaire {
-	position:fixed;
-	top:24.375em;
-	width:12em;
-	right:4.5%;
-	z-index:10;
+position:fixed;
+top:24.375em;
+width:12em;
+right:4.5%;
+z-index:10;
 }
 
 #sommaire li {
-	list-style-type:square;
-	margin-top:2%;
+list-style-type:square;
+margin-top:2%;
 }
 
 #sommaire li a {
-	text-decoration:none;
-	color:#777;
+text-decoration:none;
+color:#777;
 }
 
 #sommaire h4 {
-	color:#fff;
-	letter-spacing:1px;
-	text-align:center;
-	text-transform:uppercase;
-	line-height:2em;
-	font-weight:700;
-	background-color:rgba(114, 134, 20, 1);
+color:#fff;
+letter-spacing:1px;
+text-align:center;
+text-transform:uppercase;
+line-height:2em;
+font-weight:700;
+background-color:rgba(114, 134, 20, 1);
 }
 
 #sommaire ul li li {
-	list-style-type:none;
-	padding-left:5px;
-	font-size:.9em;
+list-style-type:none;
+padding-left:5px;
+font-size:.9em;
 }
 
 #sommaire li a:hover {
-	color:#333;
+color:#333;
 }
 
 .box {
-	background-color:#fff;
-	border:1px solid #eeece4;
-	padding:10% 10% 5%;
+background-color:#fff;
+border:1px solid #eeece4;
+padding:10% 10% 5%;
 }
 
 figure.galerie {
-	position:relative;
-	width:100 .5%;
+position:relative;
+width:100 .5%;
 }
 
 figure.galerie img {
-	display:inline;
-	float:left;
-	width:32.333%;
-	max-width:9.375em;
-	margin:1% 1% 0 0;
+display:inline;
+float:left;
+width:32.333%;
+max-width:9.375em;
+margin:1% 1% 0 0;
 }
 
 /* 2 types de page centrale selon les besoins: page full = main2 (pour la page slider, la page formation,...) /
@@ -262,7 +263,7 @@ Et page avec aside pour accéder aux ressources du site = main */
 .heading_aside {
 	text-transform: uppercase;
 	border-bottom: 1px solid #eee;
-	margin: 0.625em 0 0.625em;
+  margin: 0.625em 0 0.625em;
 }
 
 h3.heading_aside {
