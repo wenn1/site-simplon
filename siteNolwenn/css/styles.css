@@ -587,4 +587,23 @@ span.ColorHeaderH2{
 color: gray;
 
 }
+@media only screen and (max-width: 1280px) {
+
+#sommaire{
+	display: none;
+}
+.imageFlyer, .imageAutre{
+margin: auto;
+overflow: auto;
+}
+}
+@media only screen and (max-width: 720px){
+.imageFlyer, .imageAutre{
+display: none;
+}
+
+}
+
+
+
 
