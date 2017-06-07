@@ -25,26 +25,25 @@
 				<h3>La promotion Dévelo'pont</h3>
 				<h4>Présentation</h4>
 					<p>
-					DEVELO'PONT est un projet initié par l'Espace Public Numérique du Royans (EPN) et SIMPLON.CO. 
-					C'est une formation GRATUITE, INTENSIVE, QUALIFIANTE de 7 mois en développement web et mobile.
-					Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités
-					locales dans leur développement numérique. 
-					</p>
-					<p>
 					Accueillit gracieusement dans les locaux de l'usine Legrand, grâce à Laurent Besson,
 					technicien du groupe et surtout bénévole de l'EPN qui, lui aussi, a fait un énorme travail dans la
 					mise en place de cette formation. 
 					</p>
-					<p>
-					La formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared),
-					financé par la Région et POEC : préparation opérationnelle à l'emploi collectif financée par OPCALIA.
-					Elle est encadrée par les bénévoles de l'EPN, deux formateurs, une administratrice et une chargée des
-					relations entreprises, tous Pontois.
-					</p>
-					<p>
-					Les candidatures pour cette formation ont commencé le 20 janvier 2017; 
-					près d'une centaine de participants ont été accueillis; 
-					au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise
+				<h4>Candidature pour Develo’pont</h4>
+
+					<p>	Les inscriptions pour cette formation sont ouvertes à un public éloigné de l’emploi, 
+						mais toutes les candidatures motivées seront les bienvenues.<br> La sélection se déroulera en deux étapes :</p>
+					<p><strong>ETAPE 1:</strong></p>	
+						
+						<p>CANDIDATURE EN LIGNE. Ouverture du formulaire du 20 janvier 2017 au 21 mars 2017 minuit.
+						 Profitez de ces quelques jours pour vous entraîner et passer des badges sur le site, disponible en français,<a class="contact" href="https://www.codecademy.com">(www.codeacademy.com )</a>;
+						Votre profil sur Codecademy, devra être public.</p>
+						<p><strong>ETAPE 2 :</strong></p>
+						<p>ENTRETIENS DE SELECTION Si votre candidature est retenue, vous serez convoqué(e) à un entretien de sélection qui se déroulera la première quinzaine de mars.</p>
+						<p>Les candidatures ont commencé le 20 janvier 2017. 
+					Près d'une centaine de participants ont été accueillis, et 
+					au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise.
+					
 					</p>
 			</section>
 
@@ -54,7 +53,7 @@
 								<h3 class="page-header">Galerie photos</h3>
 								<h4>Présentation de l'administration</h4>
 								<figure class="galerie">
-								<figcaption >La formation est gérée administrativement par Line-Rose, présidente de l'EPN, Chloé et Charlène gèrent toute la partie administrative</figcaption>
+								<figcaption >La formation est sous la responsabilité de Line-Rose, présidente de l'EPN, Chloé et Charlène la secondent pour toute la partie administrative</figcaption>
 										  <a href="galerie/photo_individuel/Line_Rose.jpg" data-title="Line-Rose" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Line_Rosex150.jpg" alt="Line-Rose" /></a>
 										  <a href="galerie/photo_individuel/Charlene.jpg" data-title="Charlène" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Charlenex150.jpg" alt="Charlene" /></a>
 										  <a href="galerie/photo_individuel/Chloe.jpg" data-title="Chloé" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Chloex150.jpg" alt="Chloe" /></a>

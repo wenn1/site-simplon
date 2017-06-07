@@ -47,7 +47,7 @@
 									L'édition du site Develo'Pont est assurée par l'association Simplon.
 									</p>
 									<p>
-									Le Directeur de la publication est Monsieur Willhem
+									Le Directeur de la publication est Monsieur Willhlem
 									</p>
 								</article>
 
