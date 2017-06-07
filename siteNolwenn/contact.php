@@ -71,7 +71,7 @@
 				<section>
 				
 					<h3 class="heading_page">Itinéraires</h3>
-						<img id="dessin"src="galerie/dessinRegion.gif" alt="dessin de la région">
+						<img class="dessin" src="galerie/dessinRegion.gif" alt="dessin de la région">
 					<h4>Plans de route</h4>
 					
 			
