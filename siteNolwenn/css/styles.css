@@ -246,13 +246,12 @@ margin:1% 1% 0 0;
 /* 2 types de page centrale selon les besoins: page full = main2 (pour la page slider, la page formation,...) /
 Et page avec aside pour accéder aux ressources du site = main */
 #main {
-		float:left;
+		
 		background: none repeat scroll 0 0 #FFF;
-		width:75%;
 		padding: 1em 5%;
-		margin:1em 1.5em;
+		margin:1em;
 		box-shadow:5px 5px 5px 0 rgba(0,0,0,0.6);
-		border-radius: 1em;	
+		border-radius: 1.25em;	
 
 }
 
