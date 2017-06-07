@@ -23,8 +23,8 @@
 
 			<section id="main">
 				<h3>La promotion Dévelo'pont</h3>
-				<h4>Présentation</h4>
-					
+				<h4 id="promotion">Présentation</h4>
+
 					<p>
 					Accueillit gracieusement dans les locaux de l'usine Legrand, grâce à Laurent Besson,
 					technicien du groupe et surtout bénévole de l'EPN qui, lui aussi, a fait un énorme travail dans la
@@ -33,19 +33,19 @@
 					<p> <h4>Candidature pour Dévelo'pont</h4></p>
 					<p> Les inscriptions pour cette formation sont ouvertes à un public éloigné de l'emploi, mais toutes les candidatures motivées seront les bienvenues.<br>
 					La sélection se déroulera en deux étapes: </p>
- 
-					<p><strong>ETAPE 1:</strong></p>	
-						
+
+					<p><strong>ETAPE 1:</strong></p>
+
 						<p>CANDIDATURE EN LIGNE. Ouverture du formulaire du 20 janvier 2017 au 21 mars 2017 minuit.
 						 Profitez de ces quelques jours pour vous entraîner et passer des badges sur le site, disponible en français,<a class="contact" target="blank" href="https://www.codecademy.com">(www.codeacademy.com )</a>.
 						Votre profil sur Codecademy, devra être public.</p>
 						<p><strong>ETAPE 2 :</strong></p>
 						<p>ENTRETIENS DE SELECTION Si votre candidature est retenue, vous serez convoqué(e) à un entretien de sélection qui se déroulera la première quinzaine de mars.</p>
-						<p>Les candidatures ont commencé le 20 janvier 2017. 
-					Près d'une centaine de participants ont été accueillis, et 
+						<p>Les candidatures ont commencé le 20 janvier 2017.
+					Près d'une centaine de participants ont été accueillis, et
 					au final, 20 personnes ont été sélectionnées. La formation dure 7 mois et comprend un mois de stage en entreprise.
 					</p>
-					
+
 			</section>
 
 			<section id="main">
@@ -63,13 +63,13 @@
 		    </section>
 
 			<section id="main" class="clear">
-					<h4>les enseignants</h4>
+					<h4 id="enseignants">les enseignants</h4>
 					<a href="galerie/photo_individuel/Arnaud.jpg" data-title="Arnaud" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Arnaudx150.jpg" alt="Arnaud" /></a>
 					<a href="galerie/photo_individuel/Jerome.jpg" data-title="Jérôme" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Jeromex150.jpg" alt="Jérôme" /></a>
 			</section>
 
 			<section id="main" class="clear">
-					<h4>Et enfin les élèves de la formation</h4>
+					<h4 id="eleves">Et enfin les élèves de la formation</h4>
 						<a href="galerie/photo_individuel/Alan.jpg" data-title="Alan" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/Alanx150.jpg" alt="Alan" /></a>
 					  <a href="galerie/photo_individuel/BenoitLa.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLax150.jpg" alt="Benoît" /></a>
 					  <a href="galerie/photo_individuel/BenoitLi.jpg" data-title="Benoît" data-lightbox="roadtrip"><img src="galerie/photo_individuel/photos_150/BenoitLix150.jpg" alt="Benoît" /></a>
@@ -93,8 +93,8 @@
 		  </section>
 			<section id="main" class="clear">
 
-				<h3>Présentation des locaux Legrand</h3>
-					
+				<h3 id="legrand">Présentation des locaux Legrand</h3>
+
 					<a href="galerie/imageLocaux1.JPG" data-title="Salle des élèves" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux1.JPG" alt="Salle des élèves"></a>
 					<a href="galerie/imageLocaux2.JPG" data-title="Salle administrative" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux2.JPG" alt="Salle administrative"></a>
 					<a href="galerie/imageLocaux3.JPG" data-title="Salle de pose" data-lightbox="roadtrip"><img class="imageLocaux" src="galerie/imageLocaux3.JPG" alt="Salle de pose"></a>
@@ -110,7 +110,19 @@
 					<!-- Pied de page -->
 					<footer id="footer" role="contentinfo"><?php include('include/inc_footer.php') ?>
 					</footer>
-
+					<section>
+						 <div id="sommaire" class="clear">
+						 <div class="box">
+				 		 		<h3 class="sommaire_heading">Sommaire</h3>
+								 <ul id="menu-lateral">
+									 <li><a href="#promotion">Presentation de la promotion</a></li>
+									 <li><a href="#enseignants">Les enseignants</a></li>
+									 <li><a href="#eleves">Les élèves</a></li>
+									 <li><a href="#legrand">L'entreprise Legrand</a></li>
+								 </ul>
+						 </div>
+						 </div>
+					 </section>
 			</div><!-- fin #content -->
 	</body>
 </html>
